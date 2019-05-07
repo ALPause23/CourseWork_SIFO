@@ -1,5 +1,5 @@
 Assembler report for KP
-Mon May 06 12:18:24 2019
+Wed May 08 02:06:11 2019
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: E:/Univer/SIFO/CourseWork 2.2/KP.sof
-  6. Assembler Device Options: E:/Univer/SIFO/CourseWork 2.2/KP.pof
+  5. Assembler Device Options: E:/GitHub/CourseWork_SIFO/CourseWork/KP.sof
+  6. Assembler Device Options: E:/GitHub/CourseWork_SIFO/CourseWork/KP.pof
   7. Assembler Messages
 
 
@@ -38,9 +38,9 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Mon May 06 12:18:24 2019 ;
+; Assembler Status      ; Successful - Wed May 08 02:06:11 2019 ;
 ; Revision Name         ; KP                                    ;
-; Top-level Entity Name ; DECODE_COMMAND                        ;
+; Top-level Entity Name ; CPU                                   ;
 ; Family                ; Stratix II                            ;
 ; Device                ; EP2S15F484C3                          ;
 +-----------------------+---------------------------------------+
@@ -79,37 +79,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+--------------------------------------+
-; Assembler Generated Files            ;
-+--------------------------------------+
-; File Name                            ;
-+--------------------------------------+
-; E:/Univer/SIFO/CourseWork 2.2/KP.sof ;
-; E:/Univer/SIFO/CourseWork 2.2/KP.pof ;
-+--------------------------------------+
++---------------------------------------------+
+; Assembler Generated Files                   ;
++---------------------------------------------+
+; File Name                                   ;
++---------------------------------------------+
+; E:/GitHub/CourseWork_SIFO/CourseWork/KP.sof ;
+; E:/GitHub/CourseWork_SIFO/CourseWork/KP.pof ;
++---------------------------------------------+
 
 
-+----------------------------------------------------------------+
-; Assembler Device Options: E:/Univer/SIFO/CourseWork 2.2/KP.sof ;
-+----------------+-----------------------------------------------+
-; Option         ; Setting                                       ;
-+----------------+-----------------------------------------------+
-; Device         ; EP2S15F484C3                                  ;
-; JTAG usercode  ; 0xFFFFFFFF                                    ;
-; Checksum       ; 0x00288668                                    ;
-+----------------+-----------------------------------------------+
++-----------------------------------------------------------------------+
+; Assembler Device Options: E:/GitHub/CourseWork_SIFO/CourseWork/KP.sof ;
++----------------+------------------------------------------------------+
+; Option         ; Setting                                              ;
++----------------+------------------------------------------------------+
+; Device         ; EP2S15F484C3                                         ;
+; JTAG usercode  ; 0xFFFFFFFF                                           ;
+; Checksum       ; 0x00B2E7EA                                           ;
++----------------+------------------------------------------------------+
 
 
-+----------------------------------------------------------------+
-; Assembler Device Options: E:/Univer/SIFO/CourseWork 2.2/KP.pof ;
-+--------------------+-------------------------------------------+
-; Option             ; Setting                                   ;
-+--------------------+-------------------------------------------+
-; Device             ; EPC16                                     ;
-; JTAG usercode      ; 0xFFFFFFFF                                ;
-; Checksum           ; 0x1EF17E9A                                ;
-; Compression Ratio  ; 3                                         ;
-+--------------------+-------------------------------------------+
++-----------------------------------------------------------------------+
+; Assembler Device Options: E:/GitHub/CourseWork_SIFO/CourseWork/KP.pof ;
++--------------------+--------------------------------------------------+
+; Option             ; Setting                                          ;
++--------------------+--------------------------------------------------+
+; Device             ; EPC16                                            ;
+; JTAG usercode      ; 0xFFFFFFFF                                       ;
+; Checksum           ; 0x1D92ECA1                                       ;
+; Compression Ratio  ; 1                                                ;
++--------------------+--------------------------------------------------+
 
 
 +--------------------+
@@ -118,14 +118,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Mon May 06 12:18:23 2019
+    Info: Processing started: Wed May 08 02:06:08 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off KP -c KP
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 227 megabytes
-    Info: Processing ended: Mon May 06 12:18:24 2019
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 248 megabytes
+    Info: Processing ended: Wed May 08 02:06:11 2019
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
 
 

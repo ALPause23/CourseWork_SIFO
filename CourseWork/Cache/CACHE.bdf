@@ -150,7 +150,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1440 1280 1616 1296)
+	(rect 1480 1320 1656 1336)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "BUSY" (rect 90 0 120 12)(font "Arial" ))
 	(pt 0 8)
@@ -166,7 +166,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1480 1320 1656 1336)
+	(rect 1464 1280 1640 1296)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "FREE" (rect 90 0 119 12)(font "Arial" ))
 	(pt 0 8)
@@ -3082,29 +3082,12 @@ applicable agreement for further details.
 	(pt 216 280)
 )
 (connector
-	(text "clk" (rect 1274 1288 1288 1300)(font "Arial" ))
-	(pt 1264 1304)
-	(pt 1312 1304)
-)
-(connector
-	(pt 1464 1328)
-	(pt 1480 1328)
-)
-(connector
 	(pt 1416 1328)
 	(pt 1408 1328)
 )
 (connector
 	(pt 1408 1328)
 	(pt 1408 1288)
-)
-(connector
-	(pt 1376 1288)
-	(pt 1408 1288)
-)
-(connector
-	(pt 1408 1288)
-	(pt 1440 1288)
 )
 (connector
 	(text "miss" (rect 1282 1304 1305 1316)(font "Arial" ))
@@ -3115,6 +3098,23 @@ applicable agreement for further details.
 	(text "hit" (rect 1274 1272 1285 1284)(font "Arial" ))
 	(pt 1272 1288)
 	(pt 1312 1288)
+)
+(connector
+	(text "nclk" (rect 1282 1288 1302 1300)(font "Arial" ))
+	(pt 1272 1304)
+	(pt 1312 1304)
+)
+(connector
+	(pt 1464 1328)
+	(pt 1480 1328)
+)
+(connector
+	(pt 1376 1288)
+	(pt 1408 1288)
+)
+(connector
+	(pt 1408 1288)
+	(pt 1464 1288)
 )
 (junction (pt 560 776))
 (junction (pt 560 880))

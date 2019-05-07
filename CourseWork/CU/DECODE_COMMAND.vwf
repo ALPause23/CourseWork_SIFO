@@ -857,11 +857,12 @@ TRANSITION_LIST("clk")
 	NODE
 	{
 		REPEAT = 1;
+		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 5.0;
 		LEVEL 0 FOR 5.0;
 		NODE
 		{
-			REPEAT = 98;
+			REPEAT = 97;
 			LEVEL 1 FOR 5.0;
 			LEVEL 0 FOR 5.0;
 		}

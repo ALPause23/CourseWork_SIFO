@@ -15,13 +15,12 @@
 
 FUNCTION lpm_counter5 
 (
+	aclr,
 	clk_en,
 	clock,
-	cnt_en,
-	data[12..0],
-	sload
+	sclr
 )
 
 RETURNS (
-	q[12..0]
+	q[7..0]
 );
