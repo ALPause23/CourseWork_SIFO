@@ -54,7 +54,7 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name BSF_FILE CU/lpm_counter5.bsf
+set_global_assignment -name BDF_FILE CU/CPU.bdf
 set_global_assignment -name BDF_FILE ALU/ALU.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Cache/Banks_Memory.vwf
 set_global_assignment -name BDF_FILE Cache/LRU_CACHE.bdf
@@ -72,7 +72,6 @@ set_global_assignment -name QIP_FILE Stack/lpm_decode0.qip
 set_global_assignment -name QIP_FILE Stack/lpm_counter0.qip
 set_global_assignment -name VECTOR_WAVEFORM_FILE Stack/Stack.vwf
 set_global_assignment -name QIP_FILE Stack/lpm_compare0.qip
-set_global_assignment -name BDF_FILE CPU.bdf
 set_global_assignment -name HEX_FILE memory/ROM.hex
 set_global_assignment -name QIP_FILE memory/lpm_rom0.qip
 set_global_assignment -name BDF_FILE memory/ROM.bdf
