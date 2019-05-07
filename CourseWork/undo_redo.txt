@@ -1,0 +1,16 @@
+GED
+
+	Undo Commands
+	     1.	Copy
+	     2.	Move
+	     3.	Copy
+	     4.	Move
+	     5.	Insert Symbol
+
+
+RPW
+
+	Undo Commands
+	     1.	||Compilation Report||Flow Summary
+
+

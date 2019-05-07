@@ -1,0 +1,59 @@
+--lpm_compare CBX_DECLARE_ALL_CONNECTED_PORTS="OFF" DEVICE_FAMILY="Stratix II" LPM_PIPELINE=2 LPM_REPRESENTATION="UNSIGNED" LPM_WIDTH=11 agb clock dataa datab CARRY_CHAIN="MANUAL" CARRY_CHAIN_LENGTH=48
+--VERSION_BEGIN 9.1 cbx_cycloneii 2009:10:21:21:22:16:SJ cbx_lpm_add_sub 2009:10:21:21:22:16:SJ cbx_lpm_compare 2009:10:21:21:22:16:SJ cbx_mgl 2009:10:21:21:37:49:SJ cbx_stratix 2009:10:21:21:22:16:SJ cbx_stratixii 2009:10:21:21:22:16:SJ  VERSION_END
+
+
+-- Copyright (C) 1991-2009 Altera Corporation
+--  Your use of Altera Corporation's design tools, logic functions 
+--  and other software and tools, and its AMPP partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Altera Program License 
+--  Subscription Agreement, Altera MegaCore Function License 
+--  Agreement, or other applicable license agreement, including, 
+--  without limitation, that your use is for the sole purpose of 
+--  programming logic devices manufactured by Altera and sold by 
+--  Altera or its authorized distributors.  Please refer to the 
+--  applicable agreement for further details.
+
+
+
+--synthesis_resources = lut 12 reg 1 
+SUBDESIGN cmpr_khi
+( 
+	agb	:	output;
+	clock	:	input;
+	dataa[10..0]	:	input;
+	datab[10..0]	:	input;
+) 
+VARIABLE 
+	dffe1 : dffe;
+	signed_add_sub_pipeline_dffe[11..0]	:	DFFE
+		WITH (
+			power_up ="low"
+		);
+	signed_add_sub_result_int[12..0]	:	WIRE;
+	signed_add_sub_cin	:	WIRE;
+	signed_add_sub_clock	:	WIRE;
+	signed_add_sub_cout	:	WIRE;
+	signed_add_sub_dataa[10..0]	:	WIRE;
+	signed_add_sub_datab[10..0]	:	WIRE;
+	signed_add_sub_result[10..0]	:	WIRE;
+	agb_wire	: WIRE;
+
+BEGIN 
+	dffe1.clk = clock;
+	dffe1.d = agb_wire;
+	signed_add_sub_result_int[] = (0, signed_add_sub_dataa[], 0) - (0, signed_add_sub_datab[], !signed_add_sub_cin);
+	signed_add_sub_pipeline_dffe[].clk = signed_add_sub_clock;
+	signed_add_sub_result[] = signed_add_sub_pipeline_dffe[10..0].q;
+	signed_add_sub_cout = signed_add_sub_pipeline_dffe[11..11].q;
+	signed_add_sub_pipeline_dffe[11..0].d = (( !signed_add_sub_result_int[12]) , signed_add_sub_result_int[11..1]);
+	signed_add_sub_cin = B"0";
+	signed_add_sub_clock = clock;
+	signed_add_sub_dataa[] = dataa[];
+	signed_add_sub_datab[] = datab[];
+	agb = dffe1.q;
+	agb_wire = signed_add_sub_cout;
+END;
+--VALID FILE
