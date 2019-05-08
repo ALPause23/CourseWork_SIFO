@@ -2,35 +2,45 @@
 Timing Analyzer Summary
 --------------------------------------------------------------------------------------
 
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.495 ns
+From           : decode
+To             : DCa:inst3|lpm_counter4:inst|lpm_counter:lpm_counter_component|cntr_6pi:auto_generated|safe_q[0]
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 26.621 ns
-From           : DECODE_COMMAND:inst39|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[6]
-To             : DATA_BUS[9]
-From Clock     : CLK
+Actual Time    : 7.838 ns
+From           : lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[7]
+To             : RON_1[2]
+From Clock     : clk
 To Clock       : --
 Failed Paths   : 0
 
-Type           : Clock Setup: 'CLK'
+Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : 20.48 MHz ( period = 48.818 ns )
-From           : DECODE_COMMAND:inst39|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[6]
-To             : CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst20|lpm_ff:lpm_ff_component|dffs[6]
-From Clock     : CLK
-To Clock       : CLK
+Actual Time    : -2.142 ns
+From           : DATA[3]
+To             : lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[3]
+From Clock     : --
+To Clock       : clk
 Failed Paths   : 0
 
-Type           : Clock Hold: 'CLK'
-Slack          : Not operational: Clock Skew > Data Delay
+Type           : Clock Setup: 'clk'
+Slack          : N/A
 Required Time  : None
-Actual Time    : N/A
-From           : MEMORY:inst8|RAM:inst|lpm_dff5:inst9|lpm_ff:lpm_ff_component|dffs[3]
-To             : MEMORY:inst8|RAM:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_4pc1:auto_generated|ram_block1a2~porta_address_reg3
-From Clock     : CLK
-To Clock       : CLK
-Failed Paths   : 10000
+Actual Time    : 382.12 MHz ( period = 2.617 ns )
+From           : DCa:inst3|lpm_counter4:inst|lpm_counter:lpm_counter_component|cntr_6pi:auto_generated|safe_q[4]
+To             : DCa:inst3|lpm_counter4:inst|lpm_counter:lpm_counter_component|cntr_6pi:auto_generated|safe_q[0]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 0
 
 Type           : Total number of failed paths
 Slack          : 
@@ -40,7 +50,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 10000
+Failed Paths   : 0
 
 --------------------------------------------------------------------------------------
 
