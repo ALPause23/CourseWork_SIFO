@@ -82,15 +82,15 @@ applicable agreement for further details.
 	(port
 		(pt 288 128)
 		(output)
-		(text "FREE" (rect 0 0 29 14)(font "Arial" (font_size 8)))
-		(text "FREE" (rect 238 123 267 137)(font "Arial" (font_size 8)))
+		(text "HIT" (rect 0 0 17 14)(font "Arial" (font_size 8)))
+		(text "HIT" (rect 250 123 267 137)(font "Arial" (font_size 8)))
 		(line (pt 288 128)(pt 272 128)(line_width 1))
 	)
 	(port
 		(pt 288 144)
 		(output)
-		(text "BUSY" (rect 0 0 34 14)(font "Arial" (font_size 8)))
-		(text "BUSY" (rect 233 139 267 153)(font "Arial" (font_size 8)))
+		(text "MISS" (rect 0 0 28 14)(font "Arial" (font_size 8)))
+		(text "MISS" (rect 239 139 267 153)(font "Arial" (font_size 8)))
 		(line (pt 288 144)(pt 272 144)(line_width 1))
 	)
 	(port

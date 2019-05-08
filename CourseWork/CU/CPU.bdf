@@ -1173,7 +1173,7 @@ applicable agreement for further details.
 	(flipy)
 )
 (symbol
-	(rect 368 808 432 856)
+	(rect 432 800 496 848)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst19" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -1202,39 +1202,6 @@ applicable agreement for further details.
 		(line (pt 14 37)(pt 31 37)(line_width 1))
 		(line (pt 14 12)(pt 14 37)(line_width 1))
 		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37)(line_width 1))
-	)
-)
-(symbol
-	(rect 472 800 536 848)
-	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
-	(text "inst20" (rect 3 37 32 49)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 15 32)(line_width 1))
-	)
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 15 16)(line_width 1))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(line (pt 48 24)(pt 64 24)(line_width 1))
-	)
-	(drawing
-		(line (pt 14 36)(pt 25 36)(line_width 1))
-		(line (pt 14 13)(pt 25 13)(line_width 1))
-		(arc (pt 7 29)(pt 7 19)(rect -14 8 19 41)(line_width 1))
-		(arc (pt 49 24)(pt 25 13)(rect -6 13 57 76)(line_width 1))
-		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36)(line_width 1))
 	)
 )
 (symbol
@@ -2086,15 +2053,15 @@ applicable agreement for further details.
 	(port
 		(pt 288 128)
 		(output)
-		(text "FREE" (rect 0 0 29 14)(font "Arial" (font_size 8)))
-		(text "FREE" (rect 238 123 267 137)(font "Arial" (font_size 8)))
+		(text "HIT" (rect 0 0 17 14)(font "Arial" (font_size 8)))
+		(text "HIT" (rect 250 123 267 137)(font "Arial" (font_size 8)))
 		(line (pt 288 128)(pt 272 128)(line_width 1))
 	)
 	(port
 		(pt 288 144)
 		(output)
-		(text "BUSY" (rect 0 0 34 14)(font "Arial" (font_size 8)))
-		(text "BUSY" (rect 233 139 267 153)(font "Arial" (font_size 8)))
+		(text "MISS" (rect 0 0 28 14)(font "Arial" (font_size 8)))
+		(text "MISS" (rect 239 139 267 153)(font "Arial" (font_size 8)))
 		(line (pt 288 144)(pt 272 144)(line_width 1))
 	)
 	(port
@@ -2946,29 +2913,6 @@ applicable agreement for further details.
 	(pt 536 872)
 )
 (connector
-	(text "t1" (rect 354 808 363 820)(font "Arial" ))
-	(pt 328 824)
-	(pt 368 824)
-)
-(connector
-	(text "two_tact" (rect 330 824 371 836)(font "Arial" ))
-	(pt 320 840)
-	(pt 368 840)
-)
-(connector
-	(text "t0" (rect 450 800 459 812)(font "Arial" ))
-	(pt 440 816)
-	(pt 472 816)
-)
-(connector
-	(pt 432 832)
-	(pt 472 832)
-)
-(connector
-	(pt 536 824)
-	(pt 552 824)
-)
-(connector
 	(pt 552 840)
 	(pt 536 840)
 )
@@ -3055,6 +2999,20 @@ applicable agreement for further details.
 (connector
 	(pt 2408 1168)
 	(pt 2408 1032)
+)
+(connector
+	(text "t1" (rect 418 800 427 812)(font "Arial" ))
+	(pt 392 816)
+	(pt 432 816)
+)
+(connector
+	(text "two_tact" (rect 394 816 435 828)(font "Arial" ))
+	(pt 384 832)
+	(pt 432 832)
+)
+(connector
+	(pt 496 824)
+	(pt 552 824)
 )
 (junction (pt 1824 416))
 (junction (pt 1824 800))

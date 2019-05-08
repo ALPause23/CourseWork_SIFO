@@ -17,12 +17,10 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_mux9:inst10|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_mux9:inst9|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|MEMORY:inst8|RAM:inst|BUSMUX:inst5|lpm_mux:$00000" CBX_FILE_NAME="mux_9pc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_decode2:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare5:inst5|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_pjg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare4:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rjg.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_mux9:inst11|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|MEMORY:inst1|RAM:inst|BUSMUX:inst5|lpm_mux:$00000" CBX_FILE_NAME="mux_9pc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|lpm_counter4:inst12|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_6pi.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|lpm_decode2:inst1|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_decode2:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_mux6:inst|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_a4e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_mux5:inst28|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_b7e.tdf"/>
@@ -137,6 +135,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_mux9:inst11|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_mux9:inst10|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_counter2:inst19|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_43l.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|MEMORY:inst1|RAM:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_4pc1.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|STACK:inst2|lpm_decode0:inst20|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|BUSMUX:inst29|lpm_mux:$00000" CBX_FILE_NAME="mux_pnc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|Bank:inst17|lpm_mux7:inst14|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_r5e.tdf"/>
@@ -189,6 +188,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_decode2:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_mux7:inst14|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_r5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare5:inst8|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_pjg.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|MEMORY:inst1|lpm_mux1:inst10|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_decode2:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|Bank:inst13|lpm_mux6:inst15|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_a4e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_decode2:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
@@ -257,6 +257,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_decode2:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare5:inst8|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_pjg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_counter2:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_43l.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|MEMORY:inst1|ROM:inst1|lpm_rom0:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_m461.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_compare3:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_dig.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|BUSMUX:inst12|lpm_mux:$00000" CBX_FILE_NAME="mux_onc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_counter2:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_43l.tdf"/>
@@ -285,5 +286,8 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|BUSMUX:inst42|lpm_mux:$00000" CBX_FILE_NAME="mux_apc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_compare3:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_dig.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_decode3:inst28|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_decode2:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_mux9:inst11|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|lpm_decode2:inst1|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
