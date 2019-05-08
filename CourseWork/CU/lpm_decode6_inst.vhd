@@ -1,6 +1,5 @@
 lpm_decode6_inst : lpm_decode6 PORT MAP (
 		data	 => data_sig,
-		enable	 => enable_sig,
 		eq0	 => eq0_sig,
 		eq1	 => eq1_sig,
 		eq10	 => eq10_sig,

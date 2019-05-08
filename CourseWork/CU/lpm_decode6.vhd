@@ -43,7 +43,6 @@ ENTITY lpm_decode6 IS
 	PORT
 	(
 		data		: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
-		enable		: IN STD_LOGIC ;
 		eq0		: OUT STD_LOGIC ;
 		eq1		: OUT STD_LOGIC ;
 		eq10		: OUT STD_LOGIC ;
@@ -103,7 +102,6 @@ ARCHITECTURE SYN OF lpm_decode6 IS
 		lpm_width		: NATURAL
 	);
 	PORT (
-			enable	: IN STD_LOGIC ;
 			eq	: OUT STD_LOGIC_VECTOR (lpm_decodes-1 DOWNTO 0);
 			data	: IN STD_LOGIC_VECTOR (7 DOWNTO 0)
 	);
@@ -160,7 +158,6 @@ BEGIN
 		lpm_width => 8
 	)
 	PORT MAP (
-		enable => enable,
 		data => data,
 		eq => sub_wire0
 	);
@@ -173,7 +170,7 @@ END SYN;
 -- CNX file retrieval info
 -- ============================================================
 -- Retrieval info: PRIVATE: BaseDec NUMERIC "1"
--- Retrieval info: PRIVATE: EnableInput NUMERIC "1"
+-- Retrieval info: PRIVATE: EnableInput NUMERIC "0"
 -- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Stratix II"
 -- Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "0"
 -- Retrieval info: PRIVATE: Latency NUMERIC "0"
@@ -442,7 +439,6 @@ END SYN;
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "8"
 -- Retrieval info: USED_PORT: @eq 0 0 LPM_DECODES 0 OUTPUT NODEFVAL @eq[LPM_DECODES-1..0]
 -- Retrieval info: USED_PORT: data 0 0 8 0 INPUT NODEFVAL data[7..0]
--- Retrieval info: USED_PORT: enable 0 0 0 0 INPUT NODEFVAL enable
 -- Retrieval info: USED_PORT: eq0 0 0 0 0 OUTPUT NODEFVAL eq0
 -- Retrieval info: USED_PORT: eq1 0 0 0 0 OUTPUT NODEFVAL eq1
 -- Retrieval info: USED_PORT: eq10 0 0 0 0 OUTPUT NODEFVAL eq10
@@ -465,7 +461,6 @@ END SYN;
 -- Retrieval info: USED_PORT: eq8 0 0 0 0 OUTPUT NODEFVAL eq8
 -- Retrieval info: USED_PORT: eq9 0 0 0 0 OUTPUT NODEFVAL eq9
 -- Retrieval info: CONNECT: @data 0 0 8 0 data 0 0 8 0
--- Retrieval info: CONNECT: @enable 0 0 0 0 enable 0 0 0 0
 -- Retrieval info: CONNECT: eq0 0 0 0 0 @eq 0 0 1 0
 -- Retrieval info: CONNECT: eq1 0 0 0 0 @eq 0 0 1 1
 -- Retrieval info: CONNECT: eq2 0 0 0 0 @eq 0 0 1 2

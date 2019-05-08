@@ -15,9 +15,9 @@
 
 FUNCTION lpm_dff7 
 (
+	aload,
 	clock,
-	data[12..0],
-	enable
+	data[12..0]
 )
 
 RETURNS (

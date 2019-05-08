@@ -15,8 +15,7 @@
 
 FUNCTION lpm_decode6 
 (
-	data[7..0],
-	enable
+	data[7..0]
 )
 
 RETURNS (

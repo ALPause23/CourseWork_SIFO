@@ -1,5 +1,5 @@
 Flow report for KP
-Wed May 08 19:15:34 2019
+Wed May 08 22:07:41 2019
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,19 +38,19 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Flow Summary                                                            ;
 +-------------------------------+-----------------------------------------+
-; Flow Status                   ; Successful - Wed May 08 19:15:34 2019   ;
+; Flow Status                   ; Successful - Wed May 08 22:07:41 2019   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; KP                                      ;
-; Top-level Entity Name         ; CPU                                     ;
+; Top-level Entity Name         ; CU                                      ;
 ; Family                        ; Stratix II                              ;
-; Met timing requirements       ; Yes                                     ;
-; Logic utilization             ; 74 %                                    ;
-;     Combinational ALUTs       ; 4,436 / 12,480 ( 36 % )                 ;
-;     Dedicated logic registers ; 6,308 / 12,480 ( 51 % )                 ;
-; Total registers               ; 6308                                    ;
-; Total pins                    ; 103 / 343 ( 30 % )                      ;
+; Met timing requirements       ; No                                      ;
+; Logic utilization             ; 73 %                                    ;
+;     Combinational ALUTs       ; 4,213 / 12,480 ( 34 % )                 ;
+;     Dedicated logic registers ; 6,278 / 12,480 ( 50 % )                 ;
+; Total registers               ; 6278                                    ;
+; Total pins                    ; 102 / 343 ( 30 % )                      ;
 ; Total virtual pins            ; 0                                       ;
-; Total block memory bits       ; 0 / 419,328 ( 0 % )                     ;
+; Total block memory bits       ; 90,112 / 419,328 ( 21 % )               ;
 ; DSP block 9-bit elements      ; 0 / 96 ( 0 % )                          ;
 ; Total PLLs                    ; 0 / 6 ( 0 % )                           ;
 ; Total DLLs                    ; 0 / 2 ( 0 % )                           ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/08/2019 19:13:43 ;
+; Start date & time ; 05/08/2019 22:05:40 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; KP                  ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +------------------------------------+---------------------------------+---------------+-------------+----------------+
 ; Assignment Name                    ; Value                           ; Default Value ; Entity Name ; Section Id     ;
 +------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 128454772840284.155733202305112 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 128454772840284.155734233906300 ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_FF                          ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_MUX                         ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_BUSTRI                      ; --            ; --          ; --             ;
@@ -430,9 +430,9 @@ applicable agreement for further details.
 ; MISC_FILE                          ; CU/lpm_dff7_inst.vhd            ; --            ; --          ; --             ;
 ; MISC_FILE                          ; CU/lpm_dff7.inc                 ; --            ; --          ; --             ;
 ; MISC_FILE                          ; CU/lpm_dff7.cmp                 ; --            ; --          ; --             ;
-; PARTITION_COLOR                    ; 16764057                        ; --            ; CPU         ; Top            ;
-; PARTITION_NETLIST_TYPE             ; SOURCE                          ; --            ; CPU         ; Top            ;
-; TOP_LEVEL_ENTITY                   ; CPU                             ; KP            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                        ; --            ; CU          ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                          ; --            ; CU          ; Top            ;
+; TOP_LEVEL_ENTITY                   ; CU                              ; KP            ; --          ; --             ;
 ; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                             ; --            ; --          ; eda_blast_fpga ;
 +------------------------------------+---------------------------------+---------------+-------------+----------------+
 
@@ -442,11 +442,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:43     ; 1.0                     ; 327 MB              ; 00:00:43                           ;
-; Fitter                  ; 00:00:46     ; 1.0                     ; 294 MB              ; 00:00:46                           ;
-; Assembler               ; 00:00:02     ; 1.0                     ; 249 MB              ; 00:00:03                           ;
-; Classic Timing Analyzer ; 00:00:13     ; 1.0                     ; 321 MB              ; 00:00:13                           ;
-; Total                   ; 00:01:44     ; --                      ; --                  ; 00:01:45                           ;
+; Analysis & Synthesis    ; 00:00:48     ; 1.0                     ; 327 MB              ; 00:00:49                           ;
+; Fitter                  ; 00:00:48     ; 1.0                     ; 294 MB              ; 00:00:48                           ;
+; Assembler               ; 00:00:03     ; 1.0                     ; 248 MB              ; 00:00:03                           ;
+; Classic Timing Analyzer ; 00:00:15     ; 1.0                     ; 323 MB              ; 00:00:15                           ;
+; Total                   ; 00:01:54     ; --                      ; --                  ; 00:01:55                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
