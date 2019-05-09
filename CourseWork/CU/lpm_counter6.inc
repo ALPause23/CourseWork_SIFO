@@ -16,7 +16,6 @@
 FUNCTION lpm_counter6 
 (
 	aload,
-	clk_en,
 	clock,
 	cnt_en,
 	data[12..0]

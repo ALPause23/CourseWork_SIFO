@@ -16,7 +16,6 @@
 FUNCTION lpm_counter5 
 (
 	aclr,
-	clk_en,
 	clock,
 	sclr
 )

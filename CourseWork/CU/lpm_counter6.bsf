@@ -38,13 +38,6 @@ applicable agreement for further details.
 		(line (pt 0 64)(pt 16 64)(line_width 1))
 	)
 	(port
-		(pt 0 80)
-		(input)
-		(text "clk_en" (rect 0 0 36 14)(font "Arial" (font_size 8)))
-		(text "clk_en" (rect 20 74 50 87)(font "Arial" (font_size 8)))
-		(line (pt 0 80)(pt 16 80)(line_width 1))
-	)
-	(port
 		(pt 0 96)
 		(input)
 		(text "cnt_en" (rect 0 0 38 14)(font "Arial" (font_size 8)))
