@@ -2,35 +2,85 @@
 Timing Analyzer Summary
 --------------------------------------------------------------------------------------
 
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 19.979 ns
+From           : ADDRESS_IN[7]
+To             : CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst15|lpm_ff:lpm_ff_component|dffs[7]
+From Clock     : --
+To Clock       : CLK
+Failed Paths   : 0
+
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 32.389 ns
-From           : DECODE_COMMAND:inst7|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[0]
-To             : DATA_BUS[8]
+Actual Time    : 22.644 ns
+From           : CACHE:inst|lpm_counter4:inst12|lpm_counter:lpm_counter_component|cntr_6pi:auto_generated|safe_q[2]~DUPLICATE
+To             : TWO_TACT
 From Clock     : CLK
 To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 23.854 ns
+From           : ADDRESS_IN[7]
+To             : TWO_TACT
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.481 ns
+From           : W_CPU
+To             : MEMORY:inst5|RAM:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_4pc1:auto_generated|ram_block1a3~porta_we_reg
+From Clock     : --
+To Clock       : CLK
 Failed Paths   : 0
 
 Type           : Clock Setup: 'CLK'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 22.67 MHz ( period = 44.112 ns )
-From           : DECODE_COMMAND:inst7|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[0]
-To             : CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst16|lpm_ff:lpm_ff_component|dffs[1]
+Actual Time    : 26.64 MHz ( period = 37.538 ns )
+From           : CACHE:inst|lpm_counter4:inst12|lpm_counter:lpm_counter_component|cntr_6pi:auto_generated|safe_q[2]~DUPLICATE
+To             : CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst15|lpm_ff:lpm_ff_component|dffs[7]
 From Clock     : CLK
 To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'ADDRESS_IN[12]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 212.13 MHz ( period = 4.714 ns )
+From           : MEMORY:inst5|RAM:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_4pc1:auto_generated|ram_block1a7~porta_address_reg11
+To             : MEMORY:inst5|RAM:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_4pc1:auto_generated|ram_block1a7~porta_datain_reg0
+From Clock     : ADDRESS_IN[12]
+To Clock       : ADDRESS_IN[12]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'W_CPU'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 212.13 MHz ( period = 4.714 ns )
+From           : MEMORY:inst5|RAM:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_4pc1:auto_generated|ram_block1a7~porta_address_reg11
+To             : MEMORY:inst5|RAM:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_4pc1:auto_generated|ram_block1a7~porta_datain_reg0
+From Clock     : W_CPU
+To Clock       : W_CPU
 Failed Paths   : 0
 
 Type           : Clock Hold: 'CLK'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : MEMORY:inst8|RAM:inst|lpm_dff5:inst9|lpm_ff:lpm_ff_component|dffs[3]
-To             : MEMORY:inst8|RAM:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_4pc1:auto_generated|ram_block1a5~porta_address_reg3
+From           : MEMORY:inst5|inst14
+To             : MEMORY:inst5|RAM:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_4pc1:auto_generated|ram_block1a8~porta_datain_reg0
 From Clock     : CLK
 To Clock       : CLK
-Failed Paths   : 6590
+Failed Paths   : 3573
 
 Type           : Total number of failed paths
 Slack          : 
@@ -40,7 +90,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 6590
+Failed Paths   : 3573
 
 --------------------------------------------------------------------------------------
 
