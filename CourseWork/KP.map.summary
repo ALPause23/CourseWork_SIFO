@@ -1,4 +1,4 @@
-Analysis & Synthesis Status : Successful - Fri May 10 22:23:14 2019
+Analysis & Synthesis Status : Successful - Sat May 11 16:26:55 2019
 Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
 Revision Name : KP
 Top-level Entity Name : Test_CU
@@ -7,7 +7,7 @@ Logic utilization : N/A
     Combinational ALUTs : 4,053
     Dedicated logic registers : 6,526
 Total registers : 6526
-Total pins : 71
+Total pins : 82
 Total virtual pins : 0
 Total block memory bits : 90,112
 DSP block 9-bit elements : 0

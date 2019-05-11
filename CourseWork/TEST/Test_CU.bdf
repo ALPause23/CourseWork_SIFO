@@ -448,6 +448,23 @@ applicable agreement for further details.
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
 )
+(pin
+	(output)
+	(rect 912 576 1104 592)
+	(text "OUTPUT" (rect 153 6 191 16)(font "Arial" (font_size 6)))
+	(text "DATA_BUS[10..0]" (rect 5 4 93 16)(font "Arial" ))
+	(pt 192 8)
+	(drawing
+		(line (pt 192 8)(pt 140 8)(line_width 1))
+		(line (pt 140 12)(pt 114 12)(line_width 1))
+		(line (pt 140 4)(pt 114 4)(line_width 1))
+		(line (pt 140 4)(pt 140 12)(line_width 1))
+		(line (pt 114 12)(pt 110 8)(line_width 1))
+		(line (pt 110 8)(pt 114 4)(line_width 1))
+		(line (pt 114 4)(pt 110 8)(line_width 1))
+	)
+	(rotate180)
+)
 (symbol
 	(rect 1400 304 1600 448)
 	(text "RON" (rect 5 0 30 14)(font "Arial" (font_size 8)))
@@ -923,11 +940,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 896 696)
-	(pt 1336 696)
-	(bus)
-)
-(connector
 	(pt 1336 696)
 	(pt 1400 696)
 	(bus)
@@ -942,6 +954,27 @@ applicable agreement for further details.
 	(pt 1336 696)
 	(bus)
 )
+(connector
+	(pt 1104 584)
+	(pt 1152 584)
+	(bus)
+)
+(connector
+	(pt 1152 584)
+	(pt 1152 696)
+	(bus)
+)
+(connector
+	(pt 896 696)
+	(pt 1152 696)
+	(bus)
+)
+(connector
+	(pt 1152 696)
+	(pt 1336 696)
+	(bus)
+)
 (junction (pt 1336 696))
 (junction (pt 1336 416))
 (junction (pt 1336 616))
+(junction (pt 1152 696))
