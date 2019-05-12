@@ -1425,6 +1425,39 @@ applicable agreement for further details.
 		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37)(line_width 1))
 	)
 )
+(symbol
+	(rect 1592 -280 1656 -232)
+	(text "NAND2" (rect 1 0 32 10)(font "Arial" (font_size 6)))
+	(text "inst35" (rect 3 37 32 49)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
+		(line (pt 0 32)(pt 15 32)(line_width 1))
+	)
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 15 16)(line_width 1))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
+		(line (pt 52 24)(pt 64 24)(line_width 1))
+	)
+	(drawing
+		(line (pt 15 37)(pt 32 37)(line_width 1))
+		(line (pt 15 12)(pt 32 12)(line_width 1))
+		(line (pt 15 36)(pt 15 12)(line_width 1))
+		(arc (pt 32 36)(pt 32 12)(rect 20 12 45 37)(line_width 1))
+		(circle (rect 44 20 52 28)(line_width 1))
+	)
+)
 (connector
 	(text "clk" (rect 218 144 232 156)(font "Arial" ))
 	(pt 208 160)
@@ -1997,11 +2030,6 @@ applicable agreement for further details.
 	(pt 1760 440)
 )
 (connector
-	(text "num_takt" (rect 378 152 424 164)(font "Arial" ))
-	(pt 424 168)
-	(pt 368 168)
-)
-(connector
 	(pt 488 160)
 	(pt 544 160)
 )
@@ -2139,11 +2167,6 @@ applicable agreement for further details.
 	(pt 904 272)
 )
 (connector
-	(text "num_takt_2" (rect 1634 -288 1691 -276)(font "Arial" ))
-	(pt 1624 -272)
-	(pt 1688 -272)
-)
-(connector
 	(text "num_takt_1" (rect 1634 -304 1691 -292)(font "Arial" ))
 	(pt 1624 -288)
 	(pt 1688 -288)
@@ -2186,6 +2209,33 @@ applicable agreement for further details.
 	(text "num_takt" (rect 1762 -296 1808 -284)(font "Arial" ))
 	(pt 1752 -280)
 	(pt 1840 -280)
+)
+(connector
+	(text "num_takt_2" (rect 1538 -280 1595 -268)(font "Arial" ))
+	(pt 1528 -264)
+	(pt 1592 -264)
+)
+(connector
+	(text "t0" (rect 1562 -264 1571 -252)(font "Arial" ))
+	(pt 1544 -248)
+	(pt 1592 -248)
+)
+(connector
+	(pt 1688 -272)
+	(pt 1672 -272)
+)
+(connector
+	(pt 1672 -272)
+	(pt 1672 -256)
+)
+(connector
+	(pt 1656 -256)
+	(pt 1672 -256)
+)
+(connector
+	(text "num_takt_2" (rect 370 152 427 164)(font "Arial" ))
+	(pt 424 168)
+	(pt 368 168)
 )
 (junction (pt 720 144))
 (junction (pt 720 272))
