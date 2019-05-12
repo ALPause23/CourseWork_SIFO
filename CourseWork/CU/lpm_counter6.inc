@@ -15,10 +15,10 @@
 
 FUNCTION lpm_counter6 
 (
-	aload,
 	clock,
 	cnt_en,
-	data[12..0]
+	data[12..0],
+	sload
 )
 
 RETURNS (
