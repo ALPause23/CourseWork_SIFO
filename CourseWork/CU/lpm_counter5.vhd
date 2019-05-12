@@ -42,8 +42,8 @@ USE lpm.all;
 ENTITY lpm_counter5 IS
 	PORT
 	(
-		aclr		: IN STD_LOGIC ;
 		clock		: IN STD_LOGIC ;
+		cnt_en		: IN STD_LOGIC ;
 		sclr		: IN STD_LOGIC ;
 		q		: OUT STD_LOGIC_VECTOR (7 DOWNTO 0)
 	);
@@ -65,9 +65,9 @@ ARCHITECTURE SYN OF lpm_counter5 IS
 	);
 	PORT (
 			sclr	: IN STD_LOGIC ;
-			aclr	: IN STD_LOGIC ;
 			clock	: IN STD_LOGIC ;
-			q	: OUT STD_LOGIC_VECTOR (7 DOWNTO 0)
+			q	: OUT STD_LOGIC_VECTOR (7 DOWNTO 0);
+			cnt_en	: IN STD_LOGIC 
 	);
 	END COMPONENT;
 
@@ -83,8 +83,8 @@ BEGIN
 	)
 	PORT MAP (
 		sclr => sclr,
-		aclr => aclr,
 		clock => clock,
+		cnt_en => cnt_en,
 		q => sub_wire0
 	);
 
@@ -95,12 +95,12 @@ END SYN;
 -- ============================================================
 -- CNX file retrieval info
 -- ============================================================
--- Retrieval info: PRIVATE: ACLR NUMERIC "1"
+-- Retrieval info: PRIVATE: ACLR NUMERIC "0"
 -- Retrieval info: PRIVATE: ALOAD NUMERIC "0"
 -- Retrieval info: PRIVATE: ASET NUMERIC "0"
 -- Retrieval info: PRIVATE: ASET_ALL1 NUMERIC "1"
 -- Retrieval info: PRIVATE: CLK_EN NUMERIC "0"
--- Retrieval info: PRIVATE: CNT_EN NUMERIC "0"
+-- Retrieval info: PRIVATE: CNT_EN NUMERIC "1"
 -- Retrieval info: PRIVATE: CarryIn NUMERIC "0"
 -- Retrieval info: PRIVATE: CarryOut NUMERIC "0"
 -- Retrieval info: PRIVATE: Direction NUMERIC "0"
@@ -117,14 +117,14 @@ END SYN;
 -- Retrieval info: CONSTANT: LPM_PORT_UPDOWN STRING "PORT_UNUSED"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COUNTER"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "8"
--- Retrieval info: USED_PORT: aclr 0 0 0 0 INPUT NODEFVAL aclr
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL clock
+-- Retrieval info: USED_PORT: cnt_en 0 0 0 0 INPUT NODEFVAL cnt_en
 -- Retrieval info: USED_PORT: q 0 0 8 0 OUTPUT NODEFVAL q[7..0]
 -- Retrieval info: USED_PORT: sclr 0 0 0 0 INPUT NODEFVAL sclr
 -- Retrieval info: CONNECT: @clock 0 0 0 0 clock 0 0 0 0
 -- Retrieval info: CONNECT: q 0 0 8 0 @q 0 0 8 0
+-- Retrieval info: CONNECT: @cnt_en 0 0 0 0 cnt_en 0 0 0 0
 -- Retrieval info: CONNECT: @sclr 0 0 0 0 sclr 0 0 0 0
--- Retrieval info: CONNECT: @aclr 0 0 0 0 aclr 0 0 0 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter5.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter5.inc TRUE

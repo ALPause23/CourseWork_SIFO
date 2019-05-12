@@ -42,7 +42,7 @@ USE lpm.all;
 ENTITY lpm_compare11 IS
 	PORT
 	(
-		dataa		: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+		dataa		: IN STD_LOGIC_VECTOR (4 DOWNTO 0);
 		AeB		: OUT STD_LOGIC 
 	);
 END lpm_compare11;
@@ -51,8 +51,8 @@ END lpm_compare11;
 ARCHITECTURE SYN OF lpm_compare11 IS
 
 	SIGNAL sub_wire0	: STD_LOGIC ;
-	SIGNAL sub_wire1_bv	: BIT_VECTOR (7 DOWNTO 0);
-	SIGNAL sub_wire1	: STD_LOGIC_VECTOR (7 DOWNTO 0);
+	SIGNAL sub_wire1_bv	: BIT_VECTOR (4 DOWNTO 0);
+	SIGNAL sub_wire1	: STD_LOGIC_VECTOR (4 DOWNTO 0);
 
 
 
@@ -64,14 +64,14 @@ ARCHITECTURE SYN OF lpm_compare11 IS
 		lpm_width		: NATURAL
 	);
 	PORT (
-			dataa	: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
-			datab	: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+			dataa	: IN STD_LOGIC_VECTOR (4 DOWNTO 0);
+			datab	: IN STD_LOGIC_VECTOR (4 DOWNTO 0);
 			AeB	: OUT STD_LOGIC 
 	);
 	END COMPONENT;
 
 BEGIN
-	sub_wire1_bv(7 DOWNTO 0) <= "00000001";
+	sub_wire1_bv(4 DOWNTO 0) <= "00000";
 	sub_wire1    <= To_stdlogicvector(sub_wire1_bv);
 	AeB    <= sub_wire0;
 
@@ -80,7 +80,7 @@ BEGIN
 		lpm_hint => "ONE_INPUT_IS_CONSTANT=YES",
 		lpm_representation => "UNSIGNED",
 		lpm_type => "LPM_COMPARE",
-		lpm_width => 8
+		lpm_width => 5
 	)
 	PORT MAP (
 		dataa => dataa,
@@ -104,23 +104,23 @@ END SYN;
 -- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Stratix II"
 -- Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "0"
 -- Retrieval info: PRIVATE: Latency NUMERIC "0"
--- Retrieval info: PRIVATE: PortBValue NUMERIC "1"
+-- Retrieval info: PRIVATE: PortBValue NUMERIC "0"
 -- Retrieval info: PRIVATE: Radix NUMERIC "10"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 -- Retrieval info: PRIVATE: SignedCompare NUMERIC "0"
 -- Retrieval info: PRIVATE: aclr NUMERIC "0"
 -- Retrieval info: PRIVATE: clken NUMERIC "0"
 -- Retrieval info: PRIVATE: isPortBConstant NUMERIC "1"
--- Retrieval info: PRIVATE: nBit NUMERIC "8"
+-- Retrieval info: PRIVATE: nBit NUMERIC "5"
 -- Retrieval info: CONSTANT: LPM_HINT STRING "ONE_INPUT_IS_CONSTANT=YES"
 -- Retrieval info: CONSTANT: LPM_REPRESENTATION STRING "UNSIGNED"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COMPARE"
--- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "8"
+-- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "5"
 -- Retrieval info: USED_PORT: AeB 0 0 0 0 OUTPUT NODEFVAL AeB
--- Retrieval info: USED_PORT: dataa 0 0 8 0 INPUT NODEFVAL dataa[7..0]
+-- Retrieval info: USED_PORT: dataa 0 0 5 0 INPUT NODEFVAL dataa[4..0]
 -- Retrieval info: CONNECT: AeB 0 0 0 0 @AeB 0 0 0 0
--- Retrieval info: CONNECT: @dataa 0 0 8 0 dataa 0 0 8 0
--- Retrieval info: CONNECT: @datab 0 0 8 0 1 0 0 0 0
+-- Retrieval info: CONNECT: @dataa 0 0 5 0 dataa 0 0 5 0
+-- Retrieval info: CONNECT: @datab 0 0 5 0 0 0 0 0 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare11.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare11.inc TRUE

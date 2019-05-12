@@ -13,10 +13,11 @@
 --applicable agreement for further details.
 
 
-component lpm_compare11
-	PORT
-	(
-		dataa		: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
-		AeB		: OUT STD_LOGIC 
-	);
-end component;
+FUNCTION lpm_compare11 
+(
+	dataa[4..0]
+)
+
+RETURNS (
+	AeB
+);
