@@ -209,7 +209,40 @@ data0
 3
 }
 # hierarchies {
-lpm_decode2:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+DECODE_COMMAND:inst72|lpm_decode2:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+lpm_decode2:inst6|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_decode2:inst9|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
 }
 # macro_sequence
 
@@ -2404,6 +2437,10 @@ ON
 AUTO_ROM_RECOGNITION
 ON
 }
+# hierarchies {
+MEMORY:inst8|ROM:inst1|lpm_bustri1:inst7
+MEMORY:inst8|RAM:inst|lpm_bustri1:inst4
+}
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
 a36c8ec425c8a2589af98b2d4daabc3
@@ -2498,7 +2535,14 @@ data0
 3
 }
 # hierarchies {
-lpm_bustri3:inst5|lpm_bustri:lpm_bustri_component
+DECODE_COMMAND:inst72|lpm_bustri3:inst5|lpm_bustri:lpm_bustri_component
+CACHE:inst|Banks_Memory:inst6|lpm_bustri3:inst9|lpm_bustri:lpm_bustri_component
+CACHE:inst|Banks_Memory:inst6|lpm_bustri3:inst15|lpm_bustri:lpm_bustri_component
+CACHE:inst|Banks_Memory:inst6|lpm_bustri3:inst11|lpm_bustri:lpm_bustri_component
+CACHE:inst|Banks_Memory:inst6|lpm_bustri3:inst1|lpm_bustri:lpm_bustri_component
+lpm_bustri3:inst58|lpm_bustri:lpm_bustri_component
+MEMORY:inst8|ROM:inst1|lpm_bustri1:inst7|lpm_bustri:lpm_bustri_component
+MEMORY:inst8|RAM:inst|lpm_bustri1:inst4|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -2792,6 +2836,9 @@ address_a0
 -1
 3
 }
+# hierarchies {
+MEMORY:inst8|ROM:inst1|lpm_rom0:inst|altsyncram:altsyncram_component
+}
 # macro_sequence
 
 # end
@@ -2818,6 +2865,9 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+MEMORY:inst8|RAM:inst|lpm_ram_dq0:inst
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -3147,6 +3197,9 @@ address_a0
 -1
 3
 }
+# hierarchies {
+MEMORY:inst8|RAM:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component
+}
 # macro_sequence
 
 # end
@@ -3274,6 +3327,9 @@ address_a0
 ram.hex
 0
 }
+# hierarchies {
+MEMORY:inst8|RAM:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_4pc1:auto_generated
+}
 # macro_sequence
 
 # end
@@ -3300,6 +3356,12 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+CACHE:inst|lpm_bustri2:inst40
+CACHE:inst|lpm_bustri2:inst4
+RON:inst75|lpm_bustri2:inst6
+MEMORY:inst8|lpm_bustri2:inst11
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -3430,6 +3492,12 @@ data0
 -1
 3
 }
+# hierarchies {
+CACHE:inst|lpm_bustri2:inst40|lpm_bustri:lpm_bustri_component
+CACHE:inst|lpm_bustri2:inst4|lpm_bustri:lpm_bustri_component
+RON:inst75|lpm_bustri2:inst6|lpm_bustri:lpm_bustri_component
+MEMORY:inst8|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+}
 # macro_sequence
 
 # end
@@ -3456,6 +3524,9 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+RON:inst75|lpm_mux2:inst5
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -3823,6 +3894,13 @@ DATA0_0
 -1
 3
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_mux7:inst14|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|lpm_mux7:inst14|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|lpm_mux7:inst14|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|lpm_mux7:inst14|lpm_mux:lpm_mux_component
+RON:inst75|lpm_mux2:inst5|lpm_mux:lpm_mux_component
+}
 # macro_sequence
 
 # end
@@ -4144,6 +4222,13 @@ data0
 -1
 3
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_mux7:inst14|lpm_mux:lpm_mux_component|mux_r5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|lpm_mux7:inst14|lpm_mux:lpm_mux_component|mux_r5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|lpm_mux7:inst14|lpm_mux:lpm_mux_component|mux_r5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|lpm_mux7:inst14|lpm_mux:lpm_mux_component|mux_r5e:auto_generated
+RON:inst75|lpm_mux2:inst5|lpm_mux:lpm_mux_component|mux_r5e:auto_generated
+}
 # macro_sequence
 
 # end
@@ -4170,6 +4255,16 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+RON:inst75|lpm_dff1:inst11
+RON:inst75|lpm_dff1:inst12
+RON:inst75|lpm_dff1:inst2
+RON:inst75|lpm_dff1:inst3
+RON:inst75|lpm_dff1:inst16
+RON:inst75|lpm_dff1:inst17
+RON:inst75|lpm_dff1:inst18
+RON:inst75|lpm_dff1:inst19
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -4304,8 +4399,528 @@ clock
 3
 }
 # hierarchies {
-lpm_dff0:inst2|lpm_ff:lpm_ff_component
-lpm_dff0:inst|lpm_ff:lpm_ff_component
+DECODE_COMMAND:inst72|lpm_dff0:inst2|lpm_ff:lpm_ff_component
+DECODE_COMMAND:inst72|lpm_dff0:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst12|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst13|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst15|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst16|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst19|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst20|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst1|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst2|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst3|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst5|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst6|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst7|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst8|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst10|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst11|lpm_ff:lpm_ff_component
+RON:inst75|lpm_dff1:inst11|lpm_ff:lpm_ff_component
+RON:inst75|lpm_dff1:inst12|lpm_ff:lpm_ff_component
+RON:inst75|lpm_dff1:inst2|lpm_ff:lpm_ff_component
+RON:inst75|lpm_dff1:inst3|lpm_ff:lpm_ff_component
+RON:inst75|lpm_dff1:inst16|lpm_ff:lpm_ff_component
+RON:inst75|lpm_dff1:inst17|lpm_ff:lpm_ff_component
+RON:inst75|lpm_dff1:inst18|lpm_ff:lpm_ff_component
+RON:inst75|lpm_dff1:inst19|lpm_ff:lpm_ff_component
 }
 # macro_sequence
 
@@ -4333,6 +4948,13 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_decode1:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|lpm_decode1:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|lpm_decode1:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|lpm_decode1:inst7
+RON:inst75|lpm_decode1:inst4
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -4430,6 +5052,15 @@ data0
 -1
 3
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_decode1:inst7|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|lpm_decode4:inst11|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|lpm_decode4:inst1|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|lpm_decode1:inst7|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|lpm_decode1:inst7|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|lpm_decode1:inst7|lpm_decode:lpm_decode_component
+RON:inst75|lpm_decode1:inst4|lpm_decode:lpm_decode_component
+}
 # macro_sequence
 
 # end
@@ -4480,6 +5111,15 @@ data1
 data0
 -1
 3
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_decode1:inst7|lpm_decode:lpm_decode_component|decode_5sf:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|lpm_decode4:inst11|lpm_decode:lpm_decode_component|decode_5sf:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|lpm_decode4:inst1|lpm_decode:lpm_decode_component|decode_5sf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|lpm_decode1:inst7|lpm_decode:lpm_decode_component|decode_5sf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|lpm_decode1:inst7|lpm_decode:lpm_decode_component|decode_5sf:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|lpm_decode1:inst7|lpm_decode:lpm_decode_component|decode_5sf:auto_generated
+RON:inst75|lpm_decode1:inst4|lpm_decode:lpm_decode_component|decode_5sf:auto_generated
 }
 # macro_sequence
 
@@ -4640,6 +5280,34 @@ DATA0_0
 -1
 3
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_mux9:inst11|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_mux9:inst10|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_mux9:inst9|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_mux9:inst11|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_mux9:inst10|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_mux9:inst9|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_mux9:inst11|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_mux9:inst10|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_mux9:inst9|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_mux9:inst11|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_mux9:inst10|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_mux9:inst9|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_mux9:inst11|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_mux9:inst10|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_mux9:inst9|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_mux9:inst11|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_mux9:inst10|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_mux9:inst9|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_mux9:inst11|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_mux9:inst10|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_mux9:inst9|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_mux9:inst11|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_mux9:inst10|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_mux9:inst9|lpm_mux:lpm_mux_component
+CACHE:inst|lpm_mux9:inst9|lpm_mux:lpm_mux_component
+MEMORY:inst8|lpm_mux1:inst10|lpm_mux:lpm_mux_component
+}
 # macro_sequence
 
 # end
@@ -4756,6 +5424,34 @@ data1
 data0
 -1
 3
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_mux9:inst11|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_mux9:inst10|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_mux9:inst9|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_mux9:inst11|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_mux9:inst10|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_mux9:inst9|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_mux9:inst11|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_mux9:inst10|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_mux9:inst9|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_mux9:inst11|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_mux9:inst10|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_mux9:inst9|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_mux9:inst11|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_mux9:inst10|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_mux9:inst9|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_mux9:inst11|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_mux9:inst10|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_mux9:inst9|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_mux9:inst11|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_mux9:inst10|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_mux9:inst9|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_mux9:inst11|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_mux9:inst10|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_mux9:inst9|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+CACHE:inst|lpm_mux9:inst9|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
+MEMORY:inst8|lpm_mux1:inst10|lpm_mux:lpm_mux_component|mux_j5e:auto_generated
 }
 # macro_sequence
 
@@ -7112,6 +7808,9 @@ ON
 AUTO_ROM_RECOGNITION
 ON
 }
+# hierarchies {
+MEMORY:inst8|lpm_mux1:inst10
+}
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
 a36c8ec425c8a2589af98b2d4daabc3
@@ -7307,6 +8006,17 @@ data0
 -1
 3
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|lpm_decode3:inst19|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_decode3:inst28|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_decode3:inst28|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_decode3:inst28|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_decode3:inst28|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_decode3:inst28|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_decode3:inst28|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_decode3:inst28|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_decode3:inst28|lpm_decode:lpm_decode_component
+}
 # macro_sequence
 
 # end
@@ -7342,6 +8052,17 @@ data1
 data0
 -1
 3
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|lpm_decode3:inst19|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_decode3:inst28|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_decode3:inst28|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_decode3:inst28|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_decode3:inst28|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_decode3:inst28|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_decode3:inst28|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_decode3:inst28|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_decode3:inst28|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 }
 # macro_sequence
 
@@ -7625,6 +8346,9 @@ data0_0
 -1
 3
 }
+# hierarchies {
+busmux:inst59|lpm_mux:$00000
+}
 # macro_sequence
 
 # end
@@ -7742,6 +8466,9 @@ data0
 -1
 3
 }
+# hierarchies {
+busmux:inst59|lpm_mux:$00000|mux_8pc:auto_generated
+}
 # macro_sequence
 
 # end
@@ -7768,6 +8495,520 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff2:inst11
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst12
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst16
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst19
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst20
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst7
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst10
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff2:inst11
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -8597,6 +9838,40 @@ ON
 AUTO_ROM_RECOGNITION
 ON
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff3:inst32
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff3:inst32
+}
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
 a36c8ec425c8a2589af98b2d4daabc3
@@ -8698,6 +9973,40 @@ data0
 clock
 -1
 3
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_dff3:inst32|lpm_ff:lpm_ff_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_dff3:inst32|lpm_ff:lpm_ff_component
 }
 # macro_sequence
 
@@ -8864,6 +10173,16 @@ ON
 AUTO_ROM_RECOGNITION
 ON
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_mux6:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_mux6:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|lpm_mux6:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|lpm_mux6:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|lpm_mux6:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|lpm_mux6:inst15
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|lpm_mux6:inst
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|lpm_mux6:inst15
+}
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
 a36c8ec425c8a2589af98b2d4daabc3
@@ -8960,6 +10279,16 @@ DATA0_0
 -1
 3
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_mux6:inst|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_mux6:inst15|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|lpm_mux6:inst|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|lpm_mux6:inst15|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|lpm_mux6:inst|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|lpm_mux6:inst15|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|lpm_mux6:inst|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|lpm_mux6:inst15|lpm_mux:lpm_mux_component
+}
 # macro_sequence
 
 # end
@@ -9011,6 +10340,16 @@ data0
 -1
 3
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_mux6:inst|lpm_mux:lpm_mux_component|mux_a4e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_mux6:inst15|lpm_mux:lpm_mux_component|mux_a4e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|lpm_mux6:inst|lpm_mux:lpm_mux_component|mux_a4e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|lpm_mux6:inst15|lpm_mux:lpm_mux_component|mux_a4e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|lpm_mux6:inst|lpm_mux:lpm_mux_component|mux_a4e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|lpm_mux6:inst15|lpm_mux:lpm_mux_component|mux_a4e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|lpm_mux6:inst|lpm_mux:lpm_mux_component|mux_a4e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|lpm_mux6:inst15|lpm_mux:lpm_mux_component|mux_a4e:auto_generated
+}
 # macro_sequence
 
 # end
@@ -9037,6 +10376,12 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_mux7:inst14
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|lpm_mux7:inst14
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|lpm_mux7:inst14
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|lpm_mux7:inst14
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -9609,7 +10954,12 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-lpm_bustri3:inst5
+DECODE_COMMAND:inst72|lpm_bustri3:inst5
+CACHE:inst|Banks_Memory:inst6|lpm_bustri3:inst9
+CACHE:inst|Banks_Memory:inst6|lpm_bustri3:inst15
+CACHE:inst|Banks_Memory:inst6|lpm_bustri3:inst11
+CACHE:inst|Banks_Memory:inst6|lpm_bustri3:inst1
+lpm_bustri3:inst58
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -10155,6 +11505,40 @@ ON
 AUTO_ROM_RECOGNITION
 ON
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_compare3:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_compare3:inst4
+}
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
 a36c8ec425c8a2589af98b2d4daabc3
@@ -10274,6 +11658,40 @@ AeB
 -1
 3
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_compare3:inst4|lpm_compare:lpm_compare_component
+}
 # macro_sequence
 
 # end
@@ -10327,6 +11745,40 @@ dataa0
 aeb
 -1
 3
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_compare3:inst4|lpm_compare:lpm_compare_component|cmpr_dig:auto_generated
 }
 # macro_sequence
 
@@ -10450,6 +11902,9 @@ dataa1
 dataa0
 -1
 3
+}
+# hierarchies {
+busmux:inst59
 }
 # macro_sequence
 
@@ -10707,6 +12162,40 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_mux5:inst28
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_mux5:inst28
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -11341,6 +12830,40 @@ DATA0_0
 -1
 3
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_mux5:inst28|lpm_mux:lpm_mux_component
+}
 # macro_sequence
 
 # end
@@ -11929,6 +13452,40 @@ data0
 -1
 3
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_mux5:inst28|lpm_mux:lpm_mux_component|mux_b7e:auto_generated
+}
 # macro_sequence
 
 # end
@@ -12050,7 +13607,40 @@ data0
 3
 }
 # hierarchies {
-lpm_decode2:inst1|lpm_decode:lpm_decode_component
+DECODE_COMMAND:inst72|lpm_decode2:inst1|lpm_decode:lpm_decode_component
+lpm_decode2:inst6|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_decode2:inst9|lpm_decode:lpm_decode_component
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_decode2:inst9|lpm_decode:lpm_decode_component
 }
 # macro_sequence
 
@@ -12198,6 +13788,32 @@ AgB
 -1
 3
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare4:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare4:inst3|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare4:inst2|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare4:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare4:inst3|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare4:inst2|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare4:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare4:inst3|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare4:inst2|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare4:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare4:inst3|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare4:inst2|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare4:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare4:inst3|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare4:inst2|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare4:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare4:inst3|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare4:inst2|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare4:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare4:inst3|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare4:inst2|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare4:inst4|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare4:inst3|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare4:inst2|lpm_compare:lpm_compare_component
+}
 # macro_sequence
 
 # end
@@ -12281,6 +13897,32 @@ dataa0
 agb
 -1
 3
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare4:inst4|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare4:inst3|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare4:inst2|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare4:inst4|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare4:inst3|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare4:inst2|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare4:inst4|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare4:inst3|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare4:inst2|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare4:inst4|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare4:inst3|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare4:inst2|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare4:inst4|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare4:inst3|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare4:inst2|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare4:inst4|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare4:inst3|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare4:inst2|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare4:inst4|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare4:inst3|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare4:inst2|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare4:inst4|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare4:inst3|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare4:inst2|lpm_compare:lpm_compare_component|cmpr_rjg:auto_generated
 }
 # macro_sequence
 
@@ -13120,7 +14762,40 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-lpm_decode2:inst1
+DECODE_COMMAND:inst72|lpm_decode2:inst1
+lpm_decode2:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_decode2:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_decode2:inst9
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -13262,6 +14937,40 @@ clk_en
 -1
 3
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_counter2:inst19|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_counter2:inst18|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_counter2:inst17|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_counter2:inst|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_counter2:inst19|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_counter2:inst18|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_counter2:inst17|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_counter2:inst|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_counter2:inst19|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_counter2:inst18|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_counter2:inst17|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_counter2:inst|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_counter2:inst19|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_counter2:inst18|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_counter2:inst17|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_counter2:inst|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_counter2:inst19|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_counter2:inst18|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_counter2:inst17|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_counter2:inst|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_counter2:inst19|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_counter2:inst18|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_counter2:inst17|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_counter2:inst|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_counter2:inst19|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_counter2:inst18|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_counter2:inst17|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_counter2:inst|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_counter2:inst19|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_counter2:inst18|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_counter2:inst17|lpm_counter:lpm_counter_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_counter2:inst|lpm_counter:lpm_counter_component
+}
 # macro_sequence
 
 # end
@@ -13324,6 +15033,40 @@ clock
 clk_en
 -1
 3
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_counter2:inst19|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_counter2:inst18|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_counter2:inst17|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_counter2:inst|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_counter2:inst19|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_counter2:inst18|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_counter2:inst17|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_counter2:inst|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_counter2:inst19|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_counter2:inst18|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_counter2:inst17|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_counter2:inst|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_counter2:inst19|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_counter2:inst18|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_counter2:inst17|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_counter2:inst|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_counter2:inst19|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_counter2:inst18|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_counter2:inst17|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_counter2:inst|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_counter2:inst19|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_counter2:inst18|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_counter2:inst17|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_counter2:inst|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_counter2:inst19|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_counter2:inst18|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_counter2:inst17|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_counter2:inst|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_counter2:inst19|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_counter2:inst18|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_counter2:inst17|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_counter2:inst|lpm_counter:lpm_counter_component|cntr_43l:auto_generated
 }
 # macro_sequence
 
@@ -14141,6 +15884,9 @@ DATA0_0
 -1
 3
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|lpm_mux8:inst20|lpm_mux:lpm_mux_component
+}
 # macro_sequence
 
 # end
@@ -14218,6 +15964,9 @@ data1
 data0
 -1
 3
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|lpm_mux8:inst20|lpm_mux:lpm_mux_component|mux_b4e:auto_generated
 }
 # macro_sequence
 
@@ -14833,6 +16582,33 @@ ON
 AUTO_ROM_RECOGNITION
 ON
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_mux9:inst11
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_mux9:inst10
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_mux9:inst9
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_mux9:inst11
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_mux9:inst10
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_mux9:inst9
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_mux9:inst11
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_mux9:inst10
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_mux9:inst9
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_mux9:inst11
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_mux9:inst10
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_mux9:inst9
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_mux9:inst11
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_mux9:inst10
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_mux9:inst9
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_mux9:inst11
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_mux9:inst10
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_mux9:inst9
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_mux9:inst11
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_mux9:inst10
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_mux9:inst9
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_mux9:inst11
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_mux9:inst10
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_mux9:inst9
+CACHE:inst|lpm_mux9:inst9
+}
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
 a36c8ec425c8a2589af98b2d4daabc3
@@ -15057,6 +16833,40 @@ AeB
 -1
 3
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare5:inst5|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare5:inst6|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare5:inst7|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare5:inst8|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare5:inst5|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare5:inst6|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare5:inst7|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare5:inst8|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare5:inst5|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare5:inst6|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare5:inst7|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare5:inst8|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare5:inst5|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare5:inst6|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare5:inst7|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare5:inst8|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare5:inst5|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare5:inst6|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare5:inst7|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare5:inst8|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare5:inst5|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare5:inst6|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare5:inst7|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare5:inst8|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare5:inst5|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare5:inst6|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare5:inst7|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare5:inst8|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare5:inst5|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare5:inst6|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare5:inst7|lpm_compare:lpm_compare_component
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare5:inst8|lpm_compare:lpm_compare_component
+}
 # macro_sequence
 
 # end
@@ -15140,6 +16950,40 @@ dataa0
 aeb
 -1
 3
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare5:inst5|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare5:inst6|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare5:inst7|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare5:inst8|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare5:inst5|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare5:inst6|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare5:inst7|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare5:inst8|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare5:inst5|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare5:inst6|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare5:inst7|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare5:inst8|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare5:inst5|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare5:inst6|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare5:inst7|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare5:inst8|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare5:inst5|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare5:inst6|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare5:inst7|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare5:inst8|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare5:inst5|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare5:inst6|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare5:inst7|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare5:inst8|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare5:inst5|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare5:inst6|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare5:inst7|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare5:inst8|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare5:inst5|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare5:inst6|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare5:inst7|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare5:inst8|lpm_compare:lpm_compare_component|cmpr_pjg:auto_generated
 }
 # macro_sequence
 
@@ -15644,6 +17488,32 @@ ON
 AUTO_ROM_RECOGNITION
 ON
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare4:inst4
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare4:inst3
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare4:inst2
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare4:inst4
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare4:inst3
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare4:inst2
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare4:inst4
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare4:inst3
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare4:inst2
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare4:inst4
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare4:inst3
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare4:inst2
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare4:inst4
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare4:inst3
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare4:inst2
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare4:inst4
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare4:inst3
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare4:inst2
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare4:inst4
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare4:inst3
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare4:inst2
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare4:inst4
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare4:inst3
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare4:inst2
+}
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
 a36c8ec425c8a2589af98b2d4daabc3
@@ -15799,6 +17669,40 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare5:inst5
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare5:inst6
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare5:inst7
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare5:inst8
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare5:inst5
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare5:inst6
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare5:inst7
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare5:inst8
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare5:inst5
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare5:inst6
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare5:inst7
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare5:inst8
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare5:inst5
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare5:inst6
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare5:inst7
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare5:inst8
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare5:inst5
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare5:inst6
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare5:inst7
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare5:inst8
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare5:inst5
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare5:inst6
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare5:inst7
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare5:inst8
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare5:inst5
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare5:inst6
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare5:inst7
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_compare5:inst8
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare5:inst5
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare5:inst6
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare5:inst7
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_compare5:inst8
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -16304,6 +18208,17 @@ cache|coder.bdf
 BLOCK_DESIGN_NAMING
 AUTO
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|CODER:inst15
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|CODER:inst15
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|CODER:inst15
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|CODER:inst15
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|CODER:inst15
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|CODER:inst15
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|CODER:inst15
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|CODER:inst15
+CACHE:inst|Banks_Memory:inst6|CODER:inst12
+}
 # macro_sequence
 
 # end
@@ -16330,6 +18245,40 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_counter2:inst19
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_counter2:inst18
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_counter2:inst17
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_counter2:inst
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_counter2:inst19
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_counter2:inst18
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_counter2:inst17
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_counter2:inst
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_counter2:inst19
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_counter2:inst18
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_counter2:inst17
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_counter2:inst
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_counter2:inst19
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_counter2:inst18
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_counter2:inst17
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_counter2:inst
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_counter2:inst19
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_counter2:inst18
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_counter2:inst17
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_counter2:inst
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_counter2:inst19
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_counter2:inst18
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_counter2:inst17
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_counter2:inst
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_counter2:inst19
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_counter2:inst18
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_counter2:inst17
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_counter2:inst
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_counter2:inst19
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_counter2:inst18
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_counter2:inst17
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_counter2:inst
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -16360,6 +18309,9 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|lpm_mux8:inst20
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -16541,6 +18493,17 @@ ON
 AUTO_ROM_RECOGNITION
 ON
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|lpm_decode3:inst19
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_decode3:inst28
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_decode3:inst28
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_decode3:inst28
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_decode3:inst28
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_decode3:inst28
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_decode3:inst28
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_decode3:inst28
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_decode3:inst28
+}
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
 a36c8ec425c8a2589af98b2d4daabc3
@@ -16570,6 +18533,10 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|lpm_decode4:inst11
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|lpm_decode4:inst1
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -16701,7 +18668,9 @@ data0_0
 3
 }
 # hierarchies {
-busmux:inst28|lpm_mux:$00000
+DECODE_COMMAND:inst72|busmux:inst28|lpm_mux:$00000
+busmux:inst54|lpm_mux:$00000
+busmux:inst32|lpm_mux:$00000
 }
 # macro_sequence
 
@@ -16749,7 +18718,9 @@ data0
 3
 }
 # hierarchies {
-busmux:inst28|lpm_mux:$00000|mux_pnc:auto_generated
+DECODE_COMMAND:inst72|busmux:inst28|lpm_mux:$00000|mux_pnc:auto_generated
+busmux:inst54|lpm_mux:$00000|mux_pnc:auto_generated
+busmux:inst32|lpm_mux:$00000|mux_pnc:auto_generated
 }
 # macro_sequence
 
@@ -16792,6 +18763,16 @@ dataa1
 dataa0
 -1
 3
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|busmux:inst12
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|busmux:inst12
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|busmux:inst12
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|busmux:inst12
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|busmux:inst12
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|busmux:inst12
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|busmux:inst12
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|busmux:inst12
 }
 # macro_sequence
 
@@ -16871,6 +18852,16 @@ data0_0
 -1
 3
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|busmux:inst12|lpm_mux:$00000
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|busmux:inst12|lpm_mux:$00000
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|busmux:inst12|lpm_mux:$00000
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|busmux:inst12|lpm_mux:$00000
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|busmux:inst12|lpm_mux:$00000
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|busmux:inst12|lpm_mux:$00000
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|busmux:inst12|lpm_mux:$00000
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|busmux:inst12|lpm_mux:$00000
+}
 # macro_sequence
 
 # end
@@ -16906,6 +18897,16 @@ data1
 data0
 -1
 3
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|busmux:inst12|lpm_mux:$00000|mux_onc:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|busmux:inst12|lpm_mux:$00000|mux_onc:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|busmux:inst12|lpm_mux:$00000|mux_onc:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|busmux:inst12|lpm_mux:$00000|mux_onc:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|busmux:inst12|lpm_mux:$00000|mux_onc:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|busmux:inst12|lpm_mux:$00000|mux_onc:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|busmux:inst12|lpm_mux:$00000|mux_onc:auto_generated
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|busmux:inst12|lpm_mux:$00000|mux_onc:auto_generated
 }
 # macro_sequence
 
@@ -17185,7 +19186,8 @@ clock
 3
 }
 # hierarchies {
-DCa:inst32|lpm_counter4:inst|lpm_counter:lpm_counter_component
+DECODE_COMMAND:inst72|DCa:inst32|lpm_counter4:inst|lpm_counter:lpm_counter_component
+CACHE:inst|lpm_counter4:inst12|lpm_counter:lpm_counter_component
 }
 # macro_sequence
 
@@ -17227,7 +19229,8 @@ clock
 3
 }
 # hierarchies {
-DCa:inst32|lpm_counter4:inst|lpm_counter:lpm_counter_component|cntr_6pi:auto_generated
+DECODE_COMMAND:inst72|DCa:inst32|lpm_counter4:inst|lpm_counter:lpm_counter_component|cntr_6pi:auto_generated
+CACHE:inst|lpm_counter4:inst12|lpm_counter:lpm_counter_component|cntr_6pi:auto_generated
 }
 # macro_sequence
 
@@ -17458,6 +19461,9 @@ alb
 aeb
 -1
 3
+}
+# hierarchies {
+CACHE:inst|lpm_compare7:inst14|lpm_compare:lpm_compare_component|cmpr_2jj:auto_generated
 }
 # macro_sequence
 
@@ -17913,7 +19919,8 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-DCa:inst32|lpm_counter4:inst
+DECODE_COMMAND:inst72|DCa:inst32|lpm_counter4:inst
+CACHE:inst|lpm_counter4:inst12
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -18030,6 +20037,9 @@ datab4
 datab0
 -1
 2
+}
+# hierarchies {
+CACHE:inst|lpm_compare7:inst14|lpm_compare:lpm_compare_component
 }
 # macro_sequence
 
@@ -18367,6 +20377,9 @@ data0_0
 -1
 3
 }
+# hierarchies {
+CACHE:inst|busmux:inst35|lpm_mux:$00000
+}
 # macro_sequence
 
 # end
@@ -18420,6 +20433,9 @@ data1
 data0
 -1
 3
+}
+# hierarchies {
+CACHE:inst|busmux:inst35|lpm_mux:$00000|mux_qnc:auto_generated
 }
 # macro_sequence
 
@@ -18638,6 +20654,9 @@ dataa1
 dataa0
 -1
 3
+}
+# hierarchies {
+CACHE:inst|busmux:inst35
 }
 # macro_sequence
 
@@ -19320,7 +21339,8 @@ data0_0
 3
 }
 # hierarchies {
-busmux:inst23|lpm_mux:$00000
+DECODE_COMMAND:inst72|busmux:inst23|lpm_mux:$00000
+CACHE:inst|busmux:inst42|lpm_mux:$00000
 }
 # macro_sequence
 
@@ -19458,7 +21478,8 @@ data0
 3
 }
 # hierarchies {
-busmux:inst23|lpm_mux:$00000|mux_apc:auto_generated
+DECODE_COMMAND:inst72|busmux:inst23|lpm_mux:$00000|mux_apc:auto_generated
+CACHE:inst|busmux:inst42|lpm_mux:$00000|mux_apc:auto_generated
 }
 # macro_sequence
 
@@ -19476,6 +21497,10 @@ cache|decode_set_of.bdf
 # internal_option {
 BLOCK_DESIGN_NAMING
 AUTO
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Decode_Set_Of:inst2
+CACHE:inst|Decode_Set_Of:inst46
 }
 # macro_sequence
 
@@ -19789,6 +21814,9 @@ dataa0
 -1
 3
 }
+# hierarchies {
+CACHE:inst|lpm_add_sub1:inst44|lpm_add_sub:lpm_add_sub_component
+}
 # macro_sequence
 
 # end
@@ -19920,6 +21948,9 @@ dataa1
 dataa0
 -1
 3
+}
+# hierarchies {
+CACHE:inst|lpm_add_sub1:inst44|lpm_add_sub:lpm_add_sub_component|add_sub_qmh:auto_generated
 }
 # macro_sequence
 
@@ -20063,7 +22094,8 @@ dataa0
 3
 }
 # hierarchies {
-busmux:inst23
+DECODE_COMMAND:inst72|busmux:inst23
+CACHE:inst|busmux:inst42
 }
 # macro_sequence
 
@@ -20091,6 +22123,9 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+CACHE:inst|lpm_compare7:inst14
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -20252,6 +22287,9 @@ dataa0
 aeb
 -1
 3
+}
+# hierarchies {
+CACHE:inst|lpm_compare9:inst2|lpm_compare:lpm_compare_component|cmpr_j8j:auto_generated
 }
 # macro_sequence
 
@@ -20760,6 +22798,9 @@ ON
 AUTO_ROM_RECOGNITION
 ON
 }
+# hierarchies {
+CACHE:inst|lpm_compare8:inst37
+}
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
 a36c8ec425c8a2589af98b2d4daabc3
@@ -20879,6 +22920,9 @@ datab0
 -1
 2
 }
+# hierarchies {
+CACHE:inst|lpm_compare8:inst37|lpm_compare:lpm_compare_component
+}
 # macro_sequence
 
 # end
@@ -20933,6 +22977,9 @@ aeb
 -1
 3
 }
+# hierarchies {
+CACHE:inst|lpm_compare8:inst37|lpm_compare:lpm_compare_component|cmpr_h0k:auto_generated
+}
 # macro_sequence
 
 # end
@@ -20959,6 +23006,9 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+CACHE:inst|lpm_compare9:inst2
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -21072,6 +23122,9 @@ datab0
 datab4
 -1
 2
+}
+# hierarchies {
+CACHE:inst|lpm_compare9:inst2|lpm_compare:lpm_compare_component
 }
 # macro_sequence
 
@@ -21844,6 +23897,9 @@ ON
 AUTO_ROM_RECOGNITION
 ON
 }
+# hierarchies {
+CACHE:inst|lpm_add_sub1:inst44
+}
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
 a36c8ec425c8a2589af98b2d4daabc3
@@ -22552,6 +24608,9 @@ clock
 -1
 3
 }
+# hierarchies {
+CACHE:inst|lpm_dff4:inst33|lpm_ff:lpm_ff_component
+}
 # macro_sequence
 
 # end
@@ -22868,6 +24927,9 @@ ON
 AUTO_ROM_RECOGNITION
 ON
 }
+# hierarchies {
+MEMORY:inst8|ROM:inst1|lpm_rom0:inst
+}
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
 a36c8ec425c8a2589af98b2d4daabc3
@@ -22897,6 +24959,9 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+MEMORY:inst8|RAM:inst|lpm_dff5:inst9
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -23033,6 +25098,9 @@ clock
 -1
 3
 }
+# hierarchies {
+MEMORY:inst8|RAM:inst|lpm_dff5:inst9|lpm_ff:lpm_ff_component
+}
 # macro_sequence
 
 # end
@@ -23164,6 +25232,9 @@ dataa1
 dataa0
 -1
 3
+}
+# hierarchies {
+MEMORY:inst8|RAM:inst|busmux:inst5
 }
 # macro_sequence
 
@@ -23333,6 +25404,9 @@ data0_0
 -1
 3
 }
+# hierarchies {
+MEMORY:inst8|RAM:inst|busmux:inst5|lpm_mux:$00000
+}
 # macro_sequence
 
 # end
@@ -23459,6 +25533,9 @@ data0
 -1
 3
 }
+# hierarchies {
+MEMORY:inst8|RAM:inst|busmux:inst5|lpm_mux:$00000|mux_9pc:auto_generated
+}
 # macro_sequence
 
 # end
@@ -23475,6 +25552,9 @@ fc65d37d2c96c18dba82413a4ee6ef
 # internal_option {
 BLOCK_DESIGN_NAMING
 AUTO
+}
+# hierarchies {
+MEMORY:inst8
 }
 # macro_sequence
 
@@ -23493,6 +25573,9 @@ f5f763e4a9fa716b8938f8a1cd6877e5
 BLOCK_DESIGN_NAMING
 AUTO
 }
+# hierarchies {
+MEMORY:inst8|ROM:inst1
+}
 # macro_sequence
 
 # end
@@ -23509,6 +25592,9 @@ memory|ram.bdf
 # internal_option {
 BLOCK_DESIGN_NAMING
 AUTO
+}
+# hierarchies {
+MEMORY:inst8|RAM:inst
 }
 # macro_sequence
 
@@ -23691,6 +25777,12 @@ cache|bank.bdf
 BLOCK_DESIGN_NAMING
 AUTO
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst13
+CACHE:inst|Banks_Memory:inst6|Bank:inst17
+}
 # macro_sequence
 
 # end
@@ -23707,6 +25799,40 @@ cache|string.bdf
 # internal_option {
 BLOCK_DESIGN_NAMING
 AUTO
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst9
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst8
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst4
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst3
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2
+CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1
 }
 # macro_sequence
 
@@ -23725,6 +25851,9 @@ cache|lru_cache.bdf
 BLOCK_DESIGN_NAMING
 AUTO
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18
+}
 # macro_sequence
 
 # end
@@ -23742,6 +25871,16 @@ cache|set_lru.bdf
 BLOCK_DESIGN_NAMING
 AUTO
 }
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7
+CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8
+}
 # macro_sequence
 
 # end
@@ -23758,6 +25897,9 @@ ddee955f7196f12c1d6b6d6f9b5119d
 # internal_option {
 BLOCK_DESIGN_NAMING
 AUTO
+}
+# hierarchies {
+CACHE:inst|Banks_Memory:inst6
 }
 # macro_sequence
 
@@ -23865,7 +26007,7 @@ data0
 3
 }
 # hierarchies {
-DCa:inst32|lpm_decode5:inst1|lpm_decode:lpm_decode_component
+DECODE_COMMAND:inst72|DCa:inst32|lpm_decode5:inst1|lpm_decode:lpm_decode_component
 }
 # macro_sequence
 
@@ -23997,7 +26139,7 @@ data0
 3
 }
 # hierarchies {
-DCa:inst32|lpm_decode5:inst1|lpm_decode:lpm_decode_component|decode_ktf:auto_generated
+DECODE_COMMAND:inst72|DCa:inst32|lpm_decode5:inst1|lpm_decode:lpm_decode_component|decode_ktf:auto_generated
 }
 # macro_sequence
 
@@ -24479,8 +26621,8 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-lpm_dff0:inst2
-lpm_dff0:inst
+DECODE_COMMAND:inst72|lpm_dff0:inst2
+DECODE_COMMAND:inst72|lpm_dff0:inst
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -26613,7 +28755,9 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-lpm_bustri4:inst8
+DECODE_COMMAND:inst72|lpm_bustri4:inst8
+lpm_bustri4:inst23
+lpm_bustri4:inst24
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -26721,7 +28865,9 @@ data0
 3
 }
 # hierarchies {
-lpm_bustri4:inst8|lpm_bustri:lpm_bustri_component
+DECODE_COMMAND:inst72|lpm_bustri4:inst8|lpm_bustri:lpm_bustri_component
+lpm_bustri4:inst23|lpm_bustri:lpm_bustri_component
+lpm_bustri4:inst24|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -26751,8 +28897,8 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-lpm_bustri5:inst9
-lpm_bustri5:inst27
+DECODE_COMMAND:inst72|lpm_bustri5:inst9
+DECODE_COMMAND:inst72|lpm_bustri5:inst27
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -26800,8 +28946,8 @@ data0
 3
 }
 # hierarchies {
-lpm_bustri5:inst9|lpm_bustri:lpm_bustri_component
-lpm_bustri5:inst27|lpm_bustri:lpm_bustri_component
+DECODE_COMMAND:inst72|lpm_bustri5:inst9|lpm_bustri:lpm_bustri_component
+DECODE_COMMAND:inst72|lpm_bustri5:inst27|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -26855,24 +29001,9 @@ dataa0
 3
 }
 # hierarchies {
-busmux:inst28
-}
-# macro_sequence
-
-# end
-# entity
-RON
-# storage
-db|KP.(303).cnf
-db|KP.(303).cnf
-# case_insensitive
-# source_file
-ron|ron.bdf
-305fbb758f90ab588efa49eca754d
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
+DECODE_COMMAND:inst72|busmux:inst28
+busmux:inst54
+busmux:inst32
 }
 # macro_sequence
 
@@ -28108,6 +30239,9 @@ data1
 data0
 -1
 3
+}
+# hierarchies {
+lpm_decode6:inst16|lpm_decode:lpm_decode_component|decode_8bf:auto_generated
 }
 # macro_sequence
 
@@ -29882,6 +32016,9 @@ ON
 AUTO_ROM_RECOGNITION
 ON
 }
+# hierarchies {
+CACHE:inst|lpm_dff4:inst33
+}
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
 a36c8ec425c8a2589af98b2d4daabc3
@@ -30359,7 +32496,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-DCa:inst32|lpm_decode5:inst1
+DECODE_COMMAND:inst72|DCa:inst32|lpm_decode5:inst1
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -30382,7 +32519,7 @@ BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-DCa:inst32
+DECODE_COMMAND:inst72|DCa:inst32
 }
 # macro_sequence
 
@@ -31588,6 +33725,9 @@ ON
 AUTO_ROM_RECOGNITION
 ON
 }
+# hierarchies {
+lpm_decode6:inst16
+}
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
 a36c8ec425c8a2589af98b2d4daabc3
@@ -31746,6 +33886,9 @@ data1
 data0
 -1
 3
+}
+# hierarchies {
+lpm_decode6:inst16|lpm_decode:lpm_decode_component
 }
 # macro_sequence
 
@@ -32307,6 +34450,9 @@ cache|cache.bdf
 BLOCK_DESIGN_NAMING
 AUTO
 }
+# hierarchies {
+CACHE:inst
+}
 # macro_sequence
 
 # end
@@ -32333,6 +34479,9 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+CACHE:inst|lpm_compare11:inst8
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -32447,6 +34596,9 @@ datab0
 -1
 1
 }
+# hierarchies {
+CACHE:inst|lpm_compare11:inst8|lpm_compare:lpm_compare_component
+}
 # macro_sequence
 
 # end
@@ -32479,6 +34631,9 @@ dataa0
 aeb
 -1
 3
+}
+# hierarchies {
+CACHE:inst|lpm_compare11:inst8|lpm_compare:lpm_compare_component|cmpr_nni:auto_generated
 }
 # macro_sequence
 
@@ -32523,6 +34678,9 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+lpm_counter5:inst9
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -32649,6 +34807,9 @@ clock
 -1
 3
 }
+# hierarchies {
+lpm_counter5:inst9|lpm_counter:lpm_counter_component
+}
 # macro_sequence
 
 # end
@@ -32697,6 +34858,9 @@ clock
 -1
 3
 }
+# hierarchies {
+lpm_counter5:inst9|lpm_counter:lpm_counter_component|cntr_9pi:auto_generated
+}
 # macro_sequence
 
 # end
@@ -32723,6 +34887,9 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+lpm_counter6:inst13
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -32903,6 +35070,9 @@ clock
 -1
 3
 }
+# hierarchies {
+lpm_counter6:inst13|lpm_counter:lpm_counter_component
+}
 # macro_sequence
 
 # end
@@ -33005,6 +35175,9 @@ clock
 -1
 3
 }
+# hierarchies {
+lpm_counter6:inst13|lpm_counter:lpm_counter_component|cntr_ebj:auto_generated
+}
 # macro_sequence
 
 # end
@@ -33031,6 +35204,9 @@ AUTO_RAM_RECOGNITION
 ON
 AUTO_ROM_RECOGNITION
 ON
+}
+# hierarchies {
+lpm_add_sub3:inst53
 }
 # lmf
 c:|altera|91|quartus|lmf|maxplus2.lmf
@@ -33155,6 +35331,9 @@ datab0
 -1
 2
 }
+# hierarchies {
+lpm_add_sub3:inst53|lpm_add_sub:lpm_add_sub_component
+}
 # macro_sequence
 
 # end
@@ -33196,6 +35375,69 @@ dataa1
 dataa0
 -1
 3
+}
+# hierarchies {
+lpm_add_sub3:inst53|lpm_add_sub:lpm_add_sub_component|add_sub_toh:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+DECODE_COMMAND
+# storage
+db|KP.(233).cnf
+db|KP.(233).cnf
+# case_insensitive
+# source_file
+cu|decode_command.bdf
+1dc8422b4fadaa98875e69b41234c53
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+DECODE_COMMAND:inst72
+}
+# macro_sequence
+
+# end
+# entity
+RON
+# storage
+db|KP.(303).cnf
+db|KP.(303).cnf
+# case_insensitive
+# source_file
+ron|ron.bdf
+625fa2166279baebe39928797b1b849f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+RON:inst75
+}
+# macro_sequence
+
+# end
+# entity
+CU
+# storage
+db|KP.(31).cnf
+db|KP.(31).cnf
+# case_insensitive
+# source_file
+cu|cu.bdf
+315f8c7ca4a72bfcf55cf9f83f98b2b0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
 }
 # macro_sequence
 
@@ -33289,44 +35531,10 @@ address_a0
 }
 # memory_file {
 memory|rom.hex
-3adf5bab7888d78f0ffecadf44cabf8
-}
-# macro_sequence
-
-# end
-# entity
-CU
-# storage
-db|KP.(31).cnf
-db|KP.(31).cnf
-# case_insensitive
-# source_file
-cu|cu.bdf
-18cb1bbc746a44c546cf8a47479fb5
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# macro_sequence
-
-# end
-# entity
-DECODE_COMMAND
-# storage
-db|KP.(233).cnf
-db|KP.(233).cnf
-# case_insensitive
-# source_file
-cu|decode_command.bdf
-43646deb60a6403bc59584061f3597
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
+e8cf45cae94280207727da3d7a33c6ef
 }
 # hierarchies {
-|
+MEMORY:inst8|ROM:inst1|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_m461:auto_generated
 }
 # macro_sequence
 
