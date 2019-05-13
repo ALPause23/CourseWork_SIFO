@@ -7,12 +7,9 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst6|lpm_compare3:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_dig.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_mux9:inst11|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_mux9:inst10|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_compare3:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_dig.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_mux5:inst28|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_b7e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare4:inst3|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rjg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare4:inst2|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rjg.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_mux9:inst11|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_mux9:inst10|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|BUSMUX:inst42|lpm_mux:$00000" CBX_FILE_NAME="mux_apc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst6|lpm_compare3:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_dig.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_decode3:inst28|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
@@ -27,6 +24,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_mux6:inst|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_a4e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst9|lpm_mux5:inst28|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_b7e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare4:inst3|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rjg.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CU|STACK:inst2|lpm_counter0:inst22|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_8mh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst3|lpm_decode2:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_compare5:inst7|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_pjg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_mux9:inst9|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
@@ -56,6 +54,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst2|lpm_mux5:inst28|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_b7e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst3|lpm_compare3:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_dig.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_decode2:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CU|STACK:inst2|lpm_compare2:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_qij.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_decode2:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_decode2:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst4|lpm_mux5:inst28|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_b7e.tdf"/>
@@ -132,6 +131,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_mux9:inst11|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_mux9:inst10|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_counter2:inst19|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_43l.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CU|STACK:inst2|lpm_decode0:inst20|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst17|lpm_mux7:inst14|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_r5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst4|lpm_mux5:inst28|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_b7e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst5|lpm_compare3:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_dig.tdf"/>
@@ -168,6 +168,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|BUSMUX:inst12|lpm_mux:$00000" CBX_FILE_NAME="mux_onc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst4|lpm_compare5:inst7|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_pjg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_mux9:inst9|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CU|STACK:inst2|lpm_compare1:inst1|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_pbj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst6|lpm_decode2:inst9|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_compare5:inst6|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_pjg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst1|lpm_compare3:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_dig.tdf"/>
@@ -198,6 +199,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst5|lpm_mux5:inst28|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_b7e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst|lpm_compare4:inst2|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rjg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|DECODE_COMMAND:inst72|BUSMUX:inst28|lpm_mux:$00000" CBX_FILE_NAME="mux_pnc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CU|STACK:inst2|lpm_compare0:inst44|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mni.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|lpm_decode6:inst16|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_8bf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst5|lpm_mux5:inst28|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_b7e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst1|lpm_mux5:inst28|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_b7e.tdf"/>
@@ -216,6 +218,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_compare3:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_dig.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_compare3:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_dig.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_mux5:inst28|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_b7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CU|STACK:inst2|lpm_mux0:inst12|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_87e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_mux5:inst28|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_b7e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst5|lpm_mux5:inst28|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_b7e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_compare4:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rjg.tdf"/>
@@ -226,6 +229,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|DECODE_COMMAND:inst72|lpm_decode2:inst1|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst5|lpm_compare4:inst3|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_rjg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst8|lpm_decode3:inst28|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CU|STACK:inst2|lpm_counter1:inst2|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_tcj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|lpm_decode1:inst7|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_5sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst2|lpm_mux9:inst9|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_counter2:inst19|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_43l.tdf"/>
@@ -273,5 +277,8 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst17|String:inst2|lpm_compare3:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_dig.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst6|String:inst3|lpm_mux5:inst28|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_b7e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst3|lpm_decode3:inst28|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_compare3:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_dig.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst6|lpm_mux9:inst11|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CU|CACHE:inst|Banks_Memory:inst6|LRU_CACHE:inst18|Set_lru:inst7|lpm_mux9:inst10|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_j5e.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
