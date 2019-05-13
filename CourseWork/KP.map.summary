@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Mon May 13 03:02:17 2019
+Analysis & Synthesis Status : Successful - Mon May 13 03:34:17 2019
 Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
 Revision Name : KP
 Top-level Entity Name : CU
 Family : Stratix II
 Logic utilization : N/A
-    Combinational ALUTs : 3,978
-    Dedicated logic registers : 6,365
-Total registers : 6365
-Total pins : 154
+    Combinational ALUTs : 3,993
+    Dedicated logic registers : 6,366
+Total registers : 6366
+Total pins : 155
 Total virtual pins : 0
 Total block memory bits : 90,112
 DSP block 9-bit elements : 0
