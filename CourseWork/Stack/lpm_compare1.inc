@@ -19,5 +19,5 @@ FUNCTION lpm_compare1
 )
 
 RETURNS (
-	AgeB
+	AneB
 );

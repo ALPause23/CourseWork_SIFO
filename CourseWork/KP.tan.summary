@@ -5,7 +5,7 @@ Timing Analyzer Summary
 Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 2.606 ns
+Actual Time    : 3.332 ns
 From           : HUI
 To             : inst12
 From Clock     : --
@@ -15,9 +15,9 @@ Failed Paths   : 0
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 23.899 ns
-From           : CACHE:inst|lpm_counter4:inst12|lpm_counter:lpm_counter_component|cntr_6pi:auto_generated|safe_q[2]
-To             : DATA_BUS[10]
+Actual Time    : 22.828 ns
+From           : lpm_counter5:inst9|lpm_counter:lpm_counter_component|cntr_9pi:auto_generated|safe_q[7]
+To             : DATA_BUS[1]
 From Clock     : CLK
 To Clock       : --
 Failed Paths   : 0
@@ -25,7 +25,7 @@ Failed Paths   : 0
 Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : -2.367 ns
+Actual Time    : -3.093 ns
 From           : HUI
 To             : inst12
 From Clock     : --
@@ -35,9 +35,9 @@ Failed Paths   : 0
 Type           : Clock Setup: 'CLK'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 24.99 MHz ( period = 40.022 ns )
-From           : CACHE:inst|lpm_counter4:inst12|lpm_counter:lpm_counter_component|cntr_6pi:auto_generated|safe_q[2]
-To             : CACHE:inst|Banks_Memory:inst6|Bank:inst13|String:inst9|lpm_dff2:inst20|lpm_ff:lpm_ff_component|dffs[4]
+Actual Time    : 27.02 MHz ( period = 37.006 ns )
+From           : lpm_counter5:inst9|lpm_counter:lpm_counter_component|cntr_9pi:auto_generated|safe_q[7]
+To             : CACHE:inst|Banks_Memory:inst6|Bank:inst3|String:inst9|lpm_dff2:inst5|lpm_ff:lpm_ff_component|dffs[0]
 From Clock     : CLK
 To Clock       : CLK
 Failed Paths   : 0
@@ -47,7 +47,7 @@ Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
 From           : MEMORY:inst8|inst14
-To             : MEMORY:inst8|RAM:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_4pc1:auto_generated|ram_block1a9~porta_datain_reg0
+To             : MEMORY:inst8|RAM:inst|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_4pc1:auto_generated|ram_block1a3~porta_datain_reg0
 From Clock     : CLK
 To Clock       : CLK
 Failed Paths   : 10000

@@ -2,7 +2,6 @@ lpm_mux0_inst : lpm_mux0 PORT MAP (
 		data0x	 => data0x_sig,
 		data10x	 => data10x_sig,
 		data11x	 => data11x_sig,
-		data12x	 => data12x_sig,
 		data1x	 => data1x_sig,
 		data2x	 => data2x_sig,
 		data3x	 => data3x_sig,

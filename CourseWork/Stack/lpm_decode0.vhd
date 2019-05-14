@@ -44,10 +44,10 @@ ENTITY lpm_decode0 IS
 	(
 		data		: IN STD_LOGIC_VECTOR (3 DOWNTO 0);
 		enable		: IN STD_LOGIC ;
+		eq0		: OUT STD_LOGIC ;
 		eq1		: OUT STD_LOGIC ;
 		eq10		: OUT STD_LOGIC ;
 		eq11		: OUT STD_LOGIC ;
-		eq12		: OUT STD_LOGIC ;
 		eq2		: OUT STD_LOGIC ;
 		eq3		: OUT STD_LOGIC ;
 		eq4		: OUT STD_LOGIC ;
@@ -92,30 +92,30 @@ ARCHITECTURE SYN OF lpm_decode0 IS
 	END COMPONENT;
 
 BEGIN
-	sub_wire12    <= sub_wire0(12);
-	sub_wire11    <= sub_wire0(11);
-	sub_wire10    <= sub_wire0(9);
-	sub_wire9    <= sub_wire0(10);
-	sub_wire8    <= sub_wire0(8);
-	sub_wire7    <= sub_wire0(7);
-	sub_wire6    <= sub_wire0(6);
-	sub_wire5    <= sub_wire0(5);
-	sub_wire4    <= sub_wire0(4);
-	sub_wire3    <= sub_wire0(3);
-	sub_wire2    <= sub_wire0(2);
-	sub_wire1    <= sub_wire0(1);
-	eq1    <= sub_wire1;
-	eq2    <= sub_wire2;
-	eq3    <= sub_wire3;
-	eq4    <= sub_wire4;
-	eq5    <= sub_wire5;
-	eq6    <= sub_wire6;
-	eq7    <= sub_wire7;
-	eq8    <= sub_wire8;
-	eq10    <= sub_wire9;
-	eq9    <= sub_wire10;
-	eq11    <= sub_wire11;
-	eq12    <= sub_wire12;
+	sub_wire12    <= sub_wire0(11);
+	sub_wire11    <= sub_wire0(9);
+	sub_wire10    <= sub_wire0(10);
+	sub_wire9    <= sub_wire0(8);
+	sub_wire8    <= sub_wire0(7);
+	sub_wire7    <= sub_wire0(6);
+	sub_wire6    <= sub_wire0(5);
+	sub_wire5    <= sub_wire0(4);
+	sub_wire4    <= sub_wire0(3);
+	sub_wire3    <= sub_wire0(2);
+	sub_wire2    <= sub_wire0(1);
+	sub_wire1    <= sub_wire0(0);
+	eq0    <= sub_wire1;
+	eq1    <= sub_wire2;
+	eq2    <= sub_wire3;
+	eq3    <= sub_wire4;
+	eq4    <= sub_wire5;
+	eq5    <= sub_wire6;
+	eq6    <= sub_wire7;
+	eq7    <= sub_wire8;
+	eq8    <= sub_wire9;
+	eq10    <= sub_wire10;
+	eq9    <= sub_wire11;
+	eq11    <= sub_wire12;
 
 	lpm_decode_component : lpm_decode
 	GENERIC MAP (
@@ -144,11 +144,11 @@ END SYN;
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 -- Retrieval info: PRIVATE: aclr NUMERIC "0"
 -- Retrieval info: PRIVATE: clken NUMERIC "0"
--- Retrieval info: PRIVATE: eq0 NUMERIC "0"
+-- Retrieval info: PRIVATE: eq0 NUMERIC "1"
 -- Retrieval info: PRIVATE: eq1 NUMERIC "1"
 -- Retrieval info: PRIVATE: eq10 NUMERIC "1"
 -- Retrieval info: PRIVATE: eq11 NUMERIC "1"
--- Retrieval info: PRIVATE: eq12 NUMERIC "1"
+-- Retrieval info: PRIVATE: eq12 NUMERIC "0"
 -- Retrieval info: PRIVATE: eq13 NUMERIC "0"
 -- Retrieval info: PRIVATE: eq14 NUMERIC "0"
 -- Retrieval info: PRIVATE: eq15 NUMERIC "0"
@@ -167,10 +167,10 @@ END SYN;
 -- Retrieval info: USED_PORT: @eq 0 0 LPM_DECODES 0 OUTPUT NODEFVAL @eq[LPM_DECODES-1..0]
 -- Retrieval info: USED_PORT: data 0 0 4 0 INPUT NODEFVAL data[3..0]
 -- Retrieval info: USED_PORT: enable 0 0 0 0 INPUT NODEFVAL enable
+-- Retrieval info: USED_PORT: eq0 0 0 0 0 OUTPUT NODEFVAL eq0
 -- Retrieval info: USED_PORT: eq1 0 0 0 0 OUTPUT NODEFVAL eq1
 -- Retrieval info: USED_PORT: eq10 0 0 0 0 OUTPUT NODEFVAL eq10
 -- Retrieval info: USED_PORT: eq11 0 0 0 0 OUTPUT NODEFVAL eq11
--- Retrieval info: USED_PORT: eq12 0 0 0 0 OUTPUT NODEFVAL eq12
 -- Retrieval info: USED_PORT: eq2 0 0 0 0 OUTPUT NODEFVAL eq2
 -- Retrieval info: USED_PORT: eq3 0 0 0 0 OUTPUT NODEFVAL eq3
 -- Retrieval info: USED_PORT: eq4 0 0 0 0 OUTPUT NODEFVAL eq4
@@ -181,6 +181,7 @@ END SYN;
 -- Retrieval info: USED_PORT: eq9 0 0 0 0 OUTPUT NODEFVAL eq9
 -- Retrieval info: CONNECT: @data 0 0 4 0 data 0 0 4 0
 -- Retrieval info: CONNECT: @enable 0 0 0 0 enable 0 0 0 0
+-- Retrieval info: CONNECT: eq0 0 0 0 0 @eq 0 0 1 0
 -- Retrieval info: CONNECT: eq1 0 0 0 0 @eq 0 0 1 1
 -- Retrieval info: CONNECT: eq2 0 0 0 0 @eq 0 0 1 2
 -- Retrieval info: CONNECT: eq3 0 0 0 0 @eq 0 0 1 3
@@ -192,7 +193,6 @@ END SYN;
 -- Retrieval info: CONNECT: eq9 0 0 0 0 @eq 0 0 1 9
 -- Retrieval info: CONNECT: eq10 0 0 0 0 @eq 0 0 1 10
 -- Retrieval info: CONNECT: eq11 0 0 0 0 @eq 0 0 1 11
--- Retrieval info: CONNECT: eq12 0 0 0 0 @eq 0 0 1 12
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_decode0.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_decode0.inc TRUE

@@ -43,7 +43,7 @@ ENTITY lpm_compare1 IS
 	PORT
 	(
 		dataa		: IN STD_LOGIC_VECTOR (3 DOWNTO 0);
-		AgeB		: OUT STD_LOGIC 
+		AneB		: OUT STD_LOGIC 
 	);
 END lpm_compare1;
 
@@ -66,14 +66,14 @@ ARCHITECTURE SYN OF lpm_compare1 IS
 	PORT (
 			dataa	: IN STD_LOGIC_VECTOR (3 DOWNTO 0);
 			datab	: IN STD_LOGIC_VECTOR (3 DOWNTO 0);
-			AgeB	: OUT STD_LOGIC 
+			AneB	: OUT STD_LOGIC 
 	);
 	END COMPONENT;
 
 BEGIN
-	sub_wire1_bv(3 DOWNTO 0) <= "1101";
+	sub_wire1_bv(3 DOWNTO 0) <= "0000";
 	sub_wire1    <= To_stdlogicvector(sub_wire1_bv);
-	AgeB    <= sub_wire0;
+	AneB    <= sub_wire0;
 
 	lpm_compare_component : lpm_compare
 	GENERIC MAP (
@@ -85,7 +85,7 @@ BEGIN
 	PORT MAP (
 		dataa => dataa,
 		datab => sub_wire1,
-		AgeB => sub_wire0
+		AneB => sub_wire0
 	);
 
 
@@ -96,15 +96,15 @@ END SYN;
 -- CNX file retrieval info
 -- ============================================================
 -- Retrieval info: PRIVATE: AeqB NUMERIC "0"
--- Retrieval info: PRIVATE: AgeB NUMERIC "1"
+-- Retrieval info: PRIVATE: AgeB NUMERIC "0"
 -- Retrieval info: PRIVATE: AgtB NUMERIC "0"
 -- Retrieval info: PRIVATE: AleB NUMERIC "0"
 -- Retrieval info: PRIVATE: AltB NUMERIC "0"
--- Retrieval info: PRIVATE: AneB NUMERIC "0"
+-- Retrieval info: PRIVATE: AneB NUMERIC "1"
 -- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Stratix II"
 -- Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "0"
 -- Retrieval info: PRIVATE: Latency NUMERIC "0"
--- Retrieval info: PRIVATE: PortBValue NUMERIC "13"
+-- Retrieval info: PRIVATE: PortBValue NUMERIC "0"
 -- Retrieval info: PRIVATE: Radix NUMERIC "10"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 -- Retrieval info: PRIVATE: SignedCompare NUMERIC "0"
@@ -116,11 +116,11 @@ END SYN;
 -- Retrieval info: CONSTANT: LPM_REPRESENTATION STRING "UNSIGNED"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COMPARE"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "4"
--- Retrieval info: USED_PORT: AgeB 0 0 0 0 OUTPUT NODEFVAL AgeB
+-- Retrieval info: USED_PORT: AneB 0 0 0 0 OUTPUT NODEFVAL AneB
 -- Retrieval info: USED_PORT: dataa 0 0 4 0 INPUT NODEFVAL dataa[3..0]
--- Retrieval info: CONNECT: AgeB 0 0 0 0 @AgeB 0 0 0 0
+-- Retrieval info: CONNECT: AneB 0 0 0 0 @AneB 0 0 0 0
 -- Retrieval info: CONNECT: @dataa 0 0 4 0 dataa 0 0 4 0
--- Retrieval info: CONNECT: @datab 0 0 4 0 13 0 0 0 0
+-- Retrieval info: CONNECT: @datab 0 0 4 0 0 0 0 0 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare1.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_compare1.inc TRUE

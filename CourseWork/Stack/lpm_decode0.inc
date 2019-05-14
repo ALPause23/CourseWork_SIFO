@@ -20,10 +20,10 @@ FUNCTION lpm_decode0
 )
 
 RETURNS (
+	eq0,
 	eq1,
 	eq10,
 	eq11,
-	eq12,
 	eq2,
 	eq3,
 	eq4,

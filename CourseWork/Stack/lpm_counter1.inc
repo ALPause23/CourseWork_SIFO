@@ -15,10 +15,9 @@
 
 FUNCTION lpm_counter1 
 (
-	aclr,
-	clk_en,
 	clock,
-	cnt_en
+	cnt_en,
+	sclr
 )
 
 RETURNS (

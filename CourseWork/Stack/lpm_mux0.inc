@@ -18,7 +18,6 @@ FUNCTION lpm_mux0
 	data0x[10..0],
 	data10x[10..0],
 	data11x[10..0],
-	data12x[10..0],
 	data1x[10..0],
 	data2x[10..0],
 	data3x[10..0],
