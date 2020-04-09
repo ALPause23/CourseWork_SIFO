@@ -43,7 +43,8 @@ ENTITY lpm_compare6 IS
 	PORT
 	(
 		dataa		: IN STD_LOGIC_VECTOR (10 DOWNTO 0);
-		AeB		: OUT STD_LOGIC 
+		AeB		: OUT STD_LOGIC ;
+		AneB		: OUT STD_LOGIC 
 	);
 END lpm_compare6;
 
@@ -51,8 +52,9 @@ END lpm_compare6;
 ARCHITECTURE SYN OF lpm_compare6 IS
 
 	SIGNAL sub_wire0	: STD_LOGIC ;
-	SIGNAL sub_wire1_bv	: BIT_VECTOR (10 DOWNTO 0);
-	SIGNAL sub_wire1	: STD_LOGIC_VECTOR (10 DOWNTO 0);
+	SIGNAL sub_wire1	: STD_LOGIC ;
+	SIGNAL sub_wire2_bv	: BIT_VECTOR (10 DOWNTO 0);
+	SIGNAL sub_wire2	: STD_LOGIC_VECTOR (10 DOWNTO 0);
 
 
 
@@ -66,14 +68,16 @@ ARCHITECTURE SYN OF lpm_compare6 IS
 	PORT (
 			dataa	: IN STD_LOGIC_VECTOR (10 DOWNTO 0);
 			datab	: IN STD_LOGIC_VECTOR (10 DOWNTO 0);
+			AneB	: OUT STD_LOGIC ;
 			AeB	: OUT STD_LOGIC 
 	);
 	END COMPONENT;
 
 BEGIN
-	sub_wire1_bv(10 DOWNTO 0) <= "00000000000";
-	sub_wire1    <= To_stdlogicvector(sub_wire1_bv);
-	AeB    <= sub_wire0;
+	sub_wire2_bv(10 DOWNTO 0) <= "00000000000";
+	sub_wire2    <= To_stdlogicvector(sub_wire2_bv);
+	AneB    <= sub_wire0;
+	AeB    <= sub_wire1;
 
 	lpm_compare_component : lpm_compare
 	GENERIC MAP (
@@ -84,8 +88,9 @@ BEGIN
 	)
 	PORT MAP (
 		dataa => dataa,
-		datab => sub_wire1,
-		AeB => sub_wire0
+		datab => sub_wire2,
+		AneB => sub_wire0,
+		AeB => sub_wire1
 	);
 
 
@@ -100,7 +105,7 @@ END SYN;
 -- Retrieval info: PRIVATE: AgtB NUMERIC "0"
 -- Retrieval info: PRIVATE: AleB NUMERIC "0"
 -- Retrieval info: PRIVATE: AltB NUMERIC "0"
--- Retrieval info: PRIVATE: AneB NUMERIC "0"
+-- Retrieval info: PRIVATE: AneB NUMERIC "1"
 -- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Stratix II"
 -- Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "0"
 -- Retrieval info: PRIVATE: Latency NUMERIC "0"
@@ -117,8 +122,10 @@ END SYN;
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COMPARE"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "11"
 -- Retrieval info: USED_PORT: AeB 0 0 0 0 OUTPUT NODEFVAL AeB
+-- Retrieval info: USED_PORT: AneB 0 0 0 0 OUTPUT NODEFVAL AneB
 -- Retrieval info: USED_PORT: dataa 0 0 11 0 INPUT NODEFVAL dataa[10..0]
 -- Retrieval info: CONNECT: AeB 0 0 0 0 @AeB 0 0 0 0
+-- Retrieval info: CONNECT: AneB 0 0 0 0 @AneB 0 0 0 0
 -- Retrieval info: CONNECT: @dataa 0 0 11 0 dataa 0 0 11 0
 -- Retrieval info: CONNECT: @datab 0 0 11 0 0 0 0 0 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all

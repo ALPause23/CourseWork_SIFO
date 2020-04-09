@@ -1379,7 +1379,7 @@ applicable agreement for further details.
 (symbol
 	(rect 488 -32 552 16)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "inst37" (rect 3 37 32 49)(font "Arial" ))
+	(text "inst34" (rect 3 37 32 49)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -2132,11 +2132,6 @@ applicable agreement for further details.
 	(pt 640 -8)
 )
 (connector
-	(text "t0" (rect 466 -16 475 -4)(font "Arial" ))
-	(pt 440 0)
-	(pt 488 0)
-)
-(connector
 	(pt 488 -16)
 	(pt 432 -16)
 )
@@ -2164,6 +2159,19 @@ applicable agreement for further details.
 	(text "num_takt" (rect 370 152 416 164)(font "Arial" ))
 	(pt 424 168)
 	(pt 368 168)
+)
+(connector
+	(text "decode" (rect 424 32 459 44)(font "Arial" ))
+	(pt 414 48)
+	(pt 480 48)
+)
+(connector
+	(pt 488 0)
+	(pt 480 0)
+)
+(connector
+	(pt 480 0)
+	(pt 480 48)
 )
 (junction (pt 720 144))
 (junction (pt 720 272))

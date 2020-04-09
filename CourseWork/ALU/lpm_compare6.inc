@@ -19,5 +19,6 @@ FUNCTION lpm_compare6
 )
 
 RETURNS (
-	AeB
+	AeB,
+	AneB
 );
